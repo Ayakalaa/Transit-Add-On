@@ -10,9 +10,9 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
-version = '1.0'
-group = 'com.yourname.modid'
-archivesBaseName = 'modid'
+version = '0.0.1.0-231224-1300'
+group = 'com.ayakalaa.transitaddon'
+archivesBaseName = 'transitaddon'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -29,7 +29,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                examplemod {
+                transitaddon {
                     source sourceSets.main
                 }
             }
@@ -42,7 +42,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                examplemod {
+                transitaddon {
                     source sourceSets.main
                 }
             }
