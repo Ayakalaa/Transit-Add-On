@@ -10,7 +10,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
-version = '0.0.1.0-231224-1300'
+version = '0.0.2.0-231224-1906'
 group = 'com.ayakalaa.transitaddon'
 archivesBaseName = 'transitaddon'
 
