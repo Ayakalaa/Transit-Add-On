@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+      "down": "transit_add_on:blocks/orange_pylon",
+      "up": "transit_add_on:blocks/orange_pylon",
+      "north": "transit_add_on:blocks/orange_pylon",
+      "east": "transit_add_on:blocks/orange_pylon",
+      "south": "transit_add_on:blocks/orange_pylon",
+      "west": "transit_add_on:blocks/orange_pylon",
+      "particle": "transit_add_on:blocks/orange_pylon"
+    }
+  }

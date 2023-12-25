@@ -19,9 +19,18 @@ public class TransitAddOnModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TransitAddOnMod.MODID);
 	public static final RegistryObject<Item> EXAMPLE_BLOCK = block(TransitAddOnModBlocks.EXAMPLE_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> EXAMPLE_ORE = block(TransitAddOnModBlocks.EXAMPLE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+	
 	public static final RegistryObject<Item> RED_PYLON = block(TransitAddOnModBlocks.RED_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+<<<<<<< HEAD
 	public static final RegistryObject<Item> ORANGE_PYLON = block(TransitAddOnModBlocks.ORANGE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	
+=======
+	public static final RegistryObject<Item> ORANGE_PYLON = block(TransitAddonModBlocks.ORANGE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> YELLOW_PYLON = block(TransitAddonModBlocks.YELLOW_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GREEN_PYLON = block(TransitAddonModBlocks.GREEN_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+>>>>>>> WMATA
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
