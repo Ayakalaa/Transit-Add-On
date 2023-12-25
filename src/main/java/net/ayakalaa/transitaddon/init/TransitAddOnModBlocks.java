@@ -1,14 +1,12 @@
-
-/*
- *    MCreator note: This file will be REGENERATED on each build.
- */
 package net.ayakalaa.transitaddon.init;
 
+//IMPORTANT IMPORTS
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-
 import net.minecraft.world.level.block.Block;
+import net.ayakalaa.transitaddon.TransitAddOnMod;
+
 
 import net.ayakalaa.transitaddon.block.ExampleOreBlock;
 import net.ayakalaa.transitaddon.block.ExampleBlockBlock;
@@ -25,7 +23,7 @@ import net.ayakalaa.transitaddon.block.wmata.pylons.one.PurplePylon;
 import net.ayakalaa.transitaddon.block.wmata.pylons.two.RedOrangePylon;
 
 
-import net.ayakalaa.transitaddon.TransitAddOnMod;
+
 
 public class TransitAddOnModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, TransitAddOnMod.MODID);
