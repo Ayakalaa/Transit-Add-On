@@ -15,7 +15,7 @@ import net.ayakalaa.transitaddon.block.ExampleBlockBlock;
 
 //WMATA Pylons, where is the textures???
 import net.ayakalaa.transitaddon.block.wmata.pylons.RedPylon;
-import net.ayakalaa.transitaddon.block.wmata.pylons.OrnagePylon;
+import net.ayakalaa.transitaddon.block.wmata.pylons.OrangePylon;
 
 
 import net.ayakalaa.transitaddon.TransitAddOnMod;
