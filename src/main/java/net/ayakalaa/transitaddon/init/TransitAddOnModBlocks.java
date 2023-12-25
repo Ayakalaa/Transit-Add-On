@@ -15,7 +15,8 @@ import net.ayakalaa.transitaddon.block.ExampleBlockBlock;
 
 //WMATA Pylons, where is the textures???
 import net.ayakalaa.transitaddon.block.wmata.pylons.RedPylon;
-import net.ayakalaa.transitaddon.block.wmata.pylons.OrnagePylon;
+import net.ayakalaa.transitaddon.block.wmata.pylons.OrangePylon;
+import net.ayakalaa.transitaddon.block.wmata.pylons.YellowPylon;
 
 
 import net.ayakalaa.transitaddon.TransitAddOnMod;
@@ -26,4 +27,5 @@ public class TransitAddOnModBlocks {
 	public static final RegistryObject<Block> EXAMPLE_ORE = REGISTRY.register("example_ore", () -> new ExampleOreBlock());
 	public static final RegistryObject<Block> RED_PYLON = REGISTRY.register("red_pylon", () -> new RedPylon());
 	public static final RegistryObject<Block> ORANGE_PYLON = REGISTRY.register("orange_pylon", () -> new OrangePylon());
+	public static final RegistryObject<Blokc> YELLOW_PYLON - REGISTRY.register("yellow_pylon", () -> new YellowPylon());
 }
