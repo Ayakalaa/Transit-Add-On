@@ -25,5 +25,5 @@ public class TransitAddOnModBlocks {
 	public static final RegistryObject<Block> EXAMPLE_BLOCK = REGISTRY.register("example_block", () -> new ExampleBlockBlock());
 	public static final RegistryObject<Block> EXAMPLE_ORE = REGISTRY.register("example_ore", () -> new ExampleOreBlock());
 	public static final RegistryObject<Block> RED_PYLON = REGISTRY.register("red_pylon", () -> new RedPylon());
-	public static final RegistryObject<Block> ORANGE_PYLON = REGISTRY.register("ornage_pylon", () -> new OrnagePylon());
+	public static final RegistryObject<Block> ORANGE_PYLON = REGISTRY.register("orange_pylon", () -> new OrangePylon());
 }
