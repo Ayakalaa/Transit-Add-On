@@ -17,7 +17,6 @@ import net.ayakalaa.transitaddon.TransitAddOnMod;
 
 public class TransitAddOnModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TransitAddOnMod.MODID);
-	public static final RegistryObject<Item> EXAMPLE_BLOCK = block(TransitAddOnModBlocks.EXAMPLE_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> EXAMPLE_ORE = block(TransitAddOnModBlocks.EXAMPLE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	
