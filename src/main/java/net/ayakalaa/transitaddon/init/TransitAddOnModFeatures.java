@@ -18,6 +18,7 @@ import net.minecraft.core.Holder;
 
 import net.ayakalaa.transitaddon.world.features.ores.ExampleOreFeature;
 import net.ayakalaa.transitaddon.world.features.ores.SteelOreFeature;
+import net.ayakalaa.transitaddon.world.features.ores.NickelOreFeature;
 import net.ayakalaa.transitaddon.TransitAddOnMod;
 
 import java.util.function.Supplier;

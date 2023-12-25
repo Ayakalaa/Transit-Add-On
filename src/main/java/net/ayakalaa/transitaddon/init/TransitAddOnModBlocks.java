@@ -37,4 +37,5 @@ public class TransitAddOnModBlocks {
 
 
 	public static final RegistryObject<Block> STEEL_ORE = REGISTRY.register("steel_ore", () -> new SteelOre());
+	public static final RegistryObject<Block> NICKEL_ORE = REGISTRY.register("nickel_ore", () -> new NickelOre());
 }
