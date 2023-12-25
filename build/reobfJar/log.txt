@@ -1,5 +1,5 @@
 Java Launcher: C:\Users\dover\.gradle\jdks\jdk-17.0.9+9\bin\java.exe
-Arguments: '--in-jar, P:\Transit-Add-On\build\libs\transitaddon-0.0.2.0-231224-1906.jar, --out-jar, P:\Transit-Add-On\build\reobfJar\output.jar, --srg-in, P:\Transit-Add-On\build\createMcpToSrg\output.tsrg, --live'
+Arguments: '--in-jar, P:\Transit-Add-On\build\libs\transitaddon-0.0.3.0-231225-0021.jar, --out-jar, P:\Transit-Add-On\build\reobfJar\output.jar, --srg-in, P:\Transit-Add-On\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\dover\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
  - C:\Users\dover\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.0_mapped_official_1.18.2\forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar
@@ -93,14 +93,14 @@ Loading mappings... 40%
 Loading mappings... 50%
 0 packages, 6399 classes, 28861 fields, 53847 methods
 Remapping final jar
-Remapping jar...  2%
+Remapping jar...  1%
 Remapping jar... 11%
-Remapping jar... 22%
+Remapping jar... 21%
 Remapping jar... 30%
 Remapping jar... 41%
-Remapping jar... 50%
-Remapping jar... 61%
-Remapping jar... 72%
-Remapping jar... 80%
-Remapping jar... 91%
+Remapping jar... 51%
+Remapping jar... 60%
+Remapping jar... 71%
+Remapping jar... 81%
+Remapping jar... 90%
 Remapping jar... 100%
