@@ -35,7 +35,10 @@ public class TransitAddOnModFeatures {
 	public static final RegistryObject<Feature<?>> STEEL_ORE = register("steel_ore", SteelOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SteelOreFeature.GENERATE_BIOMES, SteelOreFeature::placedFeature));
 
-	
+	public static final RegistryObject<Feature<?>> NICKEL_ORE = register("nickel_ore", NickelOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, NickelOreFeature.GENERATE_BIOMES, NickelOreFeature::placedFeature));
+
+
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

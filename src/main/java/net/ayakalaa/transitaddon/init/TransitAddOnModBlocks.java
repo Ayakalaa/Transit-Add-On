@@ -21,6 +21,7 @@ import net.ayakalaa.transitaddon.block.wmata.pylons.GreenPylon;
 
 //Ored
 import net.ayakalaa.transitaddon.block.ores.SteelOre;
+import net.ayakalaa.transitaddon.block.ores.NickelOre;
 
 
 import net.ayakalaa.transitaddon.TransitAddOnMod;
