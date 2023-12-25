@@ -98,6 +98,8 @@ public class TransitAddOnModBlocks {
 	public static final RegistryObject<Block> RED_ORANGE_PYLON = REGISTRY.register("red_orange_pylon", () -> new RedOrangePylon());
 	public static final RegistryObject<Block> RED_YELLOW_PYLON = REGISTRY.register("red_yellow_pylon", () -> new RedYellowPylon());
 	public static final RegistryObject<Block> RED_GREEN_PYLON = REGISTRY.register("red_green_pylon", () -> new RedGreenPylon());
+	public static final RegistryObject<Block> RED_BLUE_PYLON = REGISTRY.register("red_blue_pylon", () -> new RedBluePylon());
+	public static final RegistryObject<Block> RED_PURPLE_PYLON = REGISTRY.register("red_purple_pylon", () -> new RedPurplePylon());
 
 
 }
