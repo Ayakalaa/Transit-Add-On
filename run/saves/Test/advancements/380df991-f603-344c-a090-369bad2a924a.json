@@ -1,6 +1,7 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:dripstone_caves": "2023-12-24 21:23:37 -0600",
       "minecraft:meadow": "2023-12-24 13:16:58 -0600",
       "minecraft:plains": "2023-12-24 13:17:17 -0600"
     },

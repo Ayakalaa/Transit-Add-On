@@ -1,8 +1,8 @@
 {
     "parent": "block/cube",
     "textures": {
-      "down": "transit_add_on:blocks/red_pylon",
-      "up": "transit_add_on:blocks/red_pylon",
+      "down": "transit_add_on:blocks/pylonblank",
+      "up": "transit_add_on:blocks/pylonblank",
       "north": "transit_add_on:blocks/red_pylon",
       "east": "transit_add_on:blocks/red_pylon",
       "south": "transit_add_on:blocks/red_pylon",
