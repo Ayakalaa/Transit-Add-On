@@ -13,11 +13,16 @@ import net.minecraft.world.level.block.Block;
 import net.ayakalaa.transitaddon.block.ExampleOreBlock;
 import net.ayakalaa.transitaddon.block.ExampleBlockBlock;
 
-//WMATA Pylons, where is the textures???
-import net.ayakalaa.transitaddon.block.wmata.pylons.RedPylon;
-import net.ayakalaa.transitaddon.block.wmata.pylons.OrangePylon;
-import net.ayakalaa.transitaddon.block.wmata.pylons.YellowPylon;
-import net.ayakalaa.transitaddon.block.wmata.pylons.GreenPylon;
+//WMATA Pylons, Single Line Colors
+import net.ayakalaa.transitaddon.block.wmata.pylons.one.RedPylon;
+import net.ayakalaa.transitaddon.block.wmata.pylons.one.OrangePylon;
+import net.ayakalaa.transitaddon.block.wmata.pylons.one.YellowPylon;
+import net.ayakalaa.transitaddon.block.wmata.pylons.one.GreenPylon;
+import net.ayakalaa.transitaddon.block.wmata.pylons.one.BluePylon;
+import net.ayakalaa.transitaddon.block.wmata.pylons.one.PurplePylon;
+
+//WMATA Pylons, Two Line Colors
+import net.ayakalaa.transitaddon.block.wmata.pylons.two.RedOrangePylon;
 
 
 import net.ayakalaa.transitaddon.TransitAddOnMod;
@@ -30,4 +35,6 @@ public class TransitAddOnModBlocks {
 	public static final RegistryObject<Block> ORANGE_PYLON = REGISTRY.register("orange_pylon", () -> new OrangePylon());
 	public static final RegistryObject<Block> YELLOW_PYLON = REGISTRY.register("yellow_pylon", () -> new YellowPylon());
 	public static final RegistryObject<Block> GREEN_PYLON = REGISTRY.register("green_pylon", () -> new GreenPylon());
+	public static final RegistryObject<Block> BLUE_PYLON = REGISTRY.register("blue_pylon", () -> new BluePylon());
+	public static final RegistryObject<Block> PURPLE_PYLON = REGISTRY.register("purple_pylon", () -> new PurplePylon());
 }

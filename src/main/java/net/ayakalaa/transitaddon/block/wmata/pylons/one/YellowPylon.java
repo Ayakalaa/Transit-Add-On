@@ -1,5 +1,5 @@
 
-package net.ayakalaa.transitaddon.block.wmata.pylons;
+package net.ayakalaa.transitaddon.block.wmata.pylons.one;
 
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;

@@ -1,5 +1,5 @@
 
-package net.ayakalaa.transitaddon.block.wmata.pylons;
+package net.ayakalaa.transitaddon.block.wmata.pylons.one;
 
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
@@ -14,8 +14,8 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class OrangePylon extends Block {
-	public OrangePylon() {
+public class RedPylon extends Block {
+	public RedPylon() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
 	}
 
