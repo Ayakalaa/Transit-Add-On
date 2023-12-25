@@ -34,7 +34,7 @@ import net.ayakalaa.transitaddon.block.wmata.pylons.two.RedPurplePylon;
 import net.ayakalaa.transitaddon.block.wmata.pylons.two.OrangeYellowPylon;
 import net.ayakalaa.transitaddon.block.wmata.pylons.two.OrangeGreenPylon;
 import net.ayakalaa.transitaddon.block.wmata.pylons.two.OrangeBluePylon;
-import net.ayakalaa.transitaddon.block.wmata.pylons.two.OrangePurplePylons;
+import net.ayakalaa.transitaddon.block.wmata.pylons.two.OrangePurplePylon;
 
 //WMATA Pylons, Starting with Yellow
 import net.ayakalaa.transitaddon.block.wmata.pylons.two.YellowGreenPylon;
@@ -74,10 +74,10 @@ import net.ayakalaa.transitaddon.block.wmata.pylons.three.OrangeBluePurplePylon;
 //WMATA Pylons, Starting with Yellow
 import net.ayakalaa.transitaddon.block.wmata.pylons.three.YellowGreenBluePylon;
 import net.ayakalaa.transitaddon.block.wmata.pylons.three.YellowGreenPurplePylon;
-import net.ayakalaa.transitaddon.block.wmata.pylons.three.YellowBluePurple;
+import net.ayakalaa.transitaddon.block.wmata.pylons.three.YellowBluePurplePylon;
 
 //WMATA Pylons, (not) starting with green
-import net.ayakalaa.transitaddon.block.wmata.pylons.three.GreenBluePurple;
+import net.ayakalaa.transitaddon.block.wmata.pylons.three.GreenBluePurplePylon;
 
 
 import net.ayakalaa.transitaddon.TransitAddOnMod;
@@ -94,4 +94,6 @@ public class TransitAddOnModBlocks {
 	public static final RegistryObject<Block> GREEN_PYLON = REGISTRY.register("green_pylon", () -> new GreenPylon());
 	public static final RegistryObject<Block> BLUE_PYLON = REGISTRY.register("blue_pylon", () -> new BluePylon());
 	public static final RegistryObject<Block> PURPLE_PYLON = REGISTRY.register("purple_pylon", () -> new PurplePylon());
+
+
 }
