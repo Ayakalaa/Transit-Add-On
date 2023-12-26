@@ -43,6 +43,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2023-12-25 21:29:14 -0600",
       "minecraft:creeper": "2023-12-25 00:00:33 -0600"
     },
     "done": false
