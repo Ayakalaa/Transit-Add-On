@@ -1,7 +1,7 @@
 {
     "variants": {
       "": {
-        "model": "transit_add_on:block/purple_pylon"
+        "model": "transit_add_on:block/one/purple_pylon"
       }
     }
   }

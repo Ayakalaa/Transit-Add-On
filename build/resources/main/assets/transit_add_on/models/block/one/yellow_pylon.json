@@ -3,10 +3,10 @@
     "textures": {
       "down": "transit_add_on:blocks/pylonblank",
       "up": "transit_add_on:blocks/pylonblank",
-      "north": "transit_add_on:blocks/yellow_pylon",
-      "east": "transit_add_on:blocks/yellow_pylon",
-      "south": "transit_add_on:blocks/yellow_pylon",
-      "west": "transit_add_on:blocks/yellow_pylon",
-      "particle": "transit_add_on:blocks/yellow_pylon"
+      "north": "transit_add_on:blocks/one/yellow_pylon",
+      "east": "transit_add_on:blocks/one/yellow_pylon",
+      "south": "transit_add_on:blocks/one/yellow_pylon",
+      "west": "transit_add_on:blocks/one/yellow_pylon",
+      "particle": "transit_add_on:blocks/one/yellow_pylon"
     }
   }
