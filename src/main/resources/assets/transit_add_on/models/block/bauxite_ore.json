@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+      "down": "transit_add_on:blocks/bauxiteore",
+      "up": "transit_add_on:blocks/bauxiteore",
+      "north": "transit_add_on:blocks/bauxiteore",
+      "east": "transit_add_on:blocks/bauxiteore",
+      "south": "transit_add_on:blocks/bauxiteore",
+      "west": "transit_add_on:blocks/bauxiteore",
+      "particle": "transit_add_on:blocks/bauxiteore"
+    }
+  }

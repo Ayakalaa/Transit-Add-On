@@ -40,7 +40,7 @@ public class TransitAddOnModItems {
 
 	public static final RegistryObject<Item> STEEL_ORE = block(TransitAddOnModBlocks.STEEL_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> NICKEL_ORE = block(TransitAddOnModBlocks.NICKEL_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> BAUXITE_ORE = block(TransitAddOnModBlocks>BAUXITE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BAUXITE_ORE = block(TransitAddOnModBlocks.BAUXITE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 
 
