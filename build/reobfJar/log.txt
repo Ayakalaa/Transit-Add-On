@@ -1,5 +1,9 @@
 Java Launcher: C:\Users\dover\.gradle\jdks\jdk-17.0.9+9\bin\java.exe
+<<<<<<< HEAD
 Arguments: '--in-jar, P:\Transit-Add-On\build\libs\transitaddon-0.0.4.0-231229-1515.Steel.jar, --out-jar, P:\Transit-Add-On\build\reobfJar\output.jar, --srg-in, P:\Transit-Add-On\build\createMcpToSrg\output.tsrg, --live'
+=======
+Arguments: '--in-jar, P:\Transit-Add-On\build\libs\transitaddon-0.0.3.1-231225-1017.jar, --out-jar, P:\Transit-Add-On\build\reobfJar\output.jar, --srg-in, P:\Transit-Add-On\build\createMcpToSrg\output.tsrg, --live'
+>>>>>>> WMATA
 Classpath:
  - C:\Users\dover\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
  - C:\Users\dover\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.0_mapped_official_1.18.2\forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar
@@ -96,11 +100,20 @@ Remapping final jar
 Remapping jar...  1%
 Remapping jar... 10%
 Remapping jar... 21%
+<<<<<<< HEAD
 Remapping jar... 31%
 Remapping jar... 40%
 Remapping jar... 51%
 Remapping jar... 61%
 Remapping jar... 70%
 Remapping jar... 81%
+=======
+Remapping jar... 30%
+Remapping jar... 41%
+Remapping jar... 50%
+Remapping jar... 60%
+Remapping jar... 71%
+Remapping jar... 80%
+>>>>>>> WMATA
 Remapping jar... 91%
 Remapping jar... 100%

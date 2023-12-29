@@ -1,7 +1,72 @@
 {
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-12-24 22:58:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-12-24 22:58:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-12-24 22:58:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-12-24 22:58:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-12-25 00:00:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-12-26 00:08:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2023-12-25 00:00:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-12-24 22:58:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2023-12-25 21:29:14 -0600",
+      "minecraft:creeper": "2023-12-25 00:00:33 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-12-24 22:58:08 -0600"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+<<<<<<< HEAD
       "minecraft:sparse_jungle": "2023-12-25 14:13:29 -0600",
+=======
+      "minecraft:river": "2023-12-24 22:58:28 -0600",
+>>>>>>> WMATA
       "minecraft:dripstone_caves": "2023-12-24 21:23:37 -0600",
       "minecraft:forest": "2023-12-24 22:24:43 -0600",
       "minecraft:meadow": "2023-12-24 13:16:58 -0600",
