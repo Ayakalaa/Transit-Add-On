@@ -29,6 +29,16 @@ public class TransitAddOnModItems {
 	public static final RegistryObject<Item> BLUE_PYLON = block(TransitAddOnModBlocks.BLUE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> PURPLE_PYLON = block(TransitAddOnModBlocks.PURPLE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	
+	public static final RegistryObject<Item> RED_ORANGE_PYLON = block(TransitAddOnModBlocks.RED_ORANGE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RED_YELLOW_PYLON = block(TransitAddOnModBlocks.RED_YELLOW_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RED_GREEN_PYLON = block(TransitAddOnModBlocks.RED_GREEN_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RED_BLUE_PYLON = block(TransitAddOnModBlocks.RED_BLUE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RED_PURPLE_PYLON = block(TransitAddOnModBlocks.RED_PURPLE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+
+
+
+
 
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
