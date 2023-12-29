@@ -13,12 +13,16 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.ayakalaa.transitaddon.item.BauxiteIngot;
+
 import net.ayakalaa.transitaddon.TransitAddOnMod;
 
 public class TransitAddOnModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TransitAddOnMod.MODID);
-	public static final RegistryObject<Item> EXAMPLE_BLOCK = block(TransitAddOnModBlocks.EXAMPLE_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
 	public static final RegistryObject<Item> EXAMPLE_ORE = block(TransitAddOnModBlocks.EXAMPLE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+	public static final RegistryObject<Item> BAUXITE_INGOT = REGISTRY.register("bauxite_ingot", () -> new BauxiteIngot());
 
 	
 	public static final RegistryObject<Item> RED_PYLON = block(TransitAddOnModBlocks.RED_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
@@ -34,7 +38,9 @@ public class TransitAddOnModItems {
 	public static final RegistryObject<Item> RED_BLUE_PYLON = block(TransitAddOnModBlocks.RED_BLUE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RED_PURPLE_PYLON = block(TransitAddOnModBlocks.RED_PURPLE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
-
+	public static final RegistryObject<Item> STEEL_ORE = block(TransitAddOnModBlocks.STEEL_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> NICKEL_ORE = block(TransitAddOnModBlocks.NICKEL_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BAUXITE_ORE = block(TransitAddOnModBlocks>BAUXITE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 
 

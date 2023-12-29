@@ -17,6 +17,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
 import net.ayakalaa.transitaddon.world.features.ores.ExampleOreFeature;
+import net.ayakalaa.transitaddon.world.features.ores.SteelOreFeature;
+import net.ayakalaa.transitaddon.world.features.ores.NickelOreFeature;
+import net.ayakalaa.transitaddon.world.features.ores.BauxiteOreFeature;
+
 import net.ayakalaa.transitaddon.TransitAddOnMod;
 
 import java.util.function.Supplier;
@@ -30,6 +34,16 @@ public class TransitAddOnModFeatures {
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
 	public static final RegistryObject<Feature<?>> EXAMPLE_ORE = register("example_ore", ExampleOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, ExampleOreFeature.GENERATE_BIOMES, ExampleOreFeature::placedFeature));
+
+	public static final RegistryObject<Feature<?>> STEEL_ORE = register("steel_ore", SteelOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SteelOreFeature.GENERATE_BIOMES, SteelOreFeature::placedFeature));
+
+	public static final RegistryObject<Feature<?>> NICKEL_ORE = register("nickel_ore", NickelOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, NickelOreFeature.GENERATE_BIOMES, NickelOreFeature::placedFeature));
+
+	public static final RegistryObject<Feature<?>> BAUXITE_ORE = register("bauxite_ore", BauxiteOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, BauxiteOreFeature.GENERATE_BIOMES, BauxiteOreFeature::placedFeature));
+
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
