@@ -32,6 +32,8 @@ public class TransitAddOnModItems {
 	public static final RegistryObject<Item> STEEL_ORE = block(TransitAddOnModBlocks.STEEL_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> NICKEL_ORE = block(TransitAddOnModBlocks.NICKEL_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
+	public static final RegistryObject<Item> BAUXITE_ORE = block(TransitAddOnModBlocks.BAUXITE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
 	}

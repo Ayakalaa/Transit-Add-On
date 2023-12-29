@@ -19,6 +19,8 @@ import net.minecraft.core.Holder;
 import net.ayakalaa.transitaddon.world.features.ores.ExampleOreFeature;
 import net.ayakalaa.transitaddon.world.features.ores.SteelOreFeature;
 import net.ayakalaa.transitaddon.world.features.ores.NickelOreFeature;
+import net.ayakalaa.transitaddon.world.features.ores.BauxiteOreFeature;
+
 import net.ayakalaa.transitaddon.TransitAddOnMod;
 
 import java.util.function.Supplier;
@@ -39,6 +41,8 @@ public class TransitAddOnModFeatures {
 	public static final RegistryObject<Feature<?>> NICKEL_ORE = register("nickel_ore", NickelOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, NickelOreFeature.GENERATE_BIOMES, NickelOreFeature::placedFeature));
 
+	public static final RegistryObject<Feature<?>> BAUXITE_ORE = register("bauxite_ore", BauxiteOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, BauxiteOreFeature.GENERATE_BIOMES, BauxiteOreFeature::placedFeature));
 
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {

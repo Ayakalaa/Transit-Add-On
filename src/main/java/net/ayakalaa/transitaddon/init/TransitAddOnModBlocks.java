@@ -22,6 +22,7 @@ import net.ayakalaa.transitaddon.block.wmata.pylons.GreenPylon;
 //Ored
 import net.ayakalaa.transitaddon.block.ores.SteelOre;
 import net.ayakalaa.transitaddon.block.ores.NickelOre;
+import net.ayakalaa.transitaddon.block.ores.BauxiteOre;
 
 
 import net.ayakalaa.transitaddon.TransitAddOnMod;
@@ -38,4 +39,5 @@ public class TransitAddOnModBlocks {
 
 	public static final RegistryObject<Block> STEEL_ORE = REGISTRY.register("steel_ore", () -> new SteelOre());
 	public static final RegistryObject<Block> NICKEL_ORE = REGISTRY.register("nickel_ore", () -> new NickelOre());
+	public static final RegistryObject<Block> BAUXITE_ORE = REGISTRY.register("bauxite_ore", () -> new BauxiteOre());
 }
