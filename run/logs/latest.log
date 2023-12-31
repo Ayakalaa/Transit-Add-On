@@ -1,114 +1,205 @@
-[26Dec2023 00:05:45.289] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\dover\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.1.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
-[26Dec2023 00:05:45.326] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.9 by Eclipse Adoptium
-[26Dec2023 00:05:45.807] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/dover/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2322!/ Service=ModLauncher Env=CLIENT
-[26Dec2023 00:05:52.399] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\dover\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
-[26Dec2023 00:06:21.324] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/dover/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar%2376!/assets/.mcassetsroot' uses unexpected schema
-[26Dec2023 00:06:21.325] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/dover/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar%2376!/data/.mcassetsroot' uses unexpected schema
-[26Dec2023 00:06:21.444] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[26Dec2023 00:06:21.485] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[26Dec2023 00:06:22.201] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
-[26Dec2023 00:06:25.567] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.0, for MC 1.18.2 with MCP 20220404.173914
-[26Dec2023 00:06:25.575] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.0 Initialized
-[26Dec2023 00:06:28.117] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[26Dec2023 00:06:28.207] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[26Dec2023 00:06:28.389] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[26Dec2023 00:06:30.567] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[26Dec2023 00:06:32.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.1.0 Target: 40.2.0
-[26Dec2023 00:06:50.697] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/one/purple_pylon' referenced from: transit_add_on:purple_pylon#: java.io.FileNotFoundException: transit_add_on:models/block/one/purple_pylon.json
-[26Dec2023 00:06:50.699] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_orange_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_orange_pylon.json
-[26Dec2023 00:06:50.708] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_orange_pylon.json' missing model for variant: 'transit_add_on:red_orange_pylon#'
-[26Dec2023 00:06:50.710] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_yellow_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_yellow_pylon.json
-[26Dec2023 00:06:50.711] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_yellow_pylon.json' missing model for variant: 'transit_add_on:red_yellow_pylon#'
-[26Dec2023 00:06:50.717] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_green_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_green_pylon.json
-[26Dec2023 00:06:50.717] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_green_pylon.json' missing model for variant: 'transit_add_on:red_green_pylon#'
-[26Dec2023 00:06:54.015] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/red_pylon' referenced from: transit_add_on:red_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/red_pylon.json
-[26Dec2023 00:06:54.018] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/orange_pylon' referenced from: transit_add_on:orange_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/orange_pylon.json
-[26Dec2023 00:06:54.022] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/yellow_pylon' referenced from: transit_add_on:yellow_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/yellow_pylon.json
-[26Dec2023 00:06:54.027] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/green_pylon' referenced from: transit_add_on:green_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/green_pylon.json
-[26Dec2023 00:06:54.028] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:blue_pylon#inventory' referenced from: transit_add_on:blue_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/blue_pylon.json
-[26Dec2023 00:06:54.034] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:purple_pylon#inventory' referenced from: transit_add_on:purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/purple_pylon.json
-[26Dec2023 00:06:54.035] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_orange_pylon#inventory' referenced from: transit_add_on:red_orange_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_orange_pylon.json
-[26Dec2023 00:06:54.052] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_yellow_pylon#inventory' referenced from: transit_add_on:red_yellow_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_yellow_pylon.json
-[26Dec2023 00:06:54.977] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/red_pylon
-[26Dec2023 00:06:54.978] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/orange_pylon
-[26Dec2023 00:06:54.978] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/green_pylon
-[26Dec2023 00:06:54.979] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/yellow_pylon
-[26Dec2023 00:07:14.411] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (WH201A)
-[26Dec2023 00:07:14.412] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[26Dec2023 00:07:14.726] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
-[26Dec2023 00:07:14.743] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
-[26Dec2023 00:07:14.745] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[26Dec2023 00:07:14.747] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[26Dec2023 00:07:14.748] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[26Dec2023 00:07:14.749] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[26Dec2023 00:07:14.750] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[26Dec2023 00:07:17.101] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[26Dec2023 00:07:17.103] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[26Dec2023 00:07:17.104] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[26Dec2023 00:07:17.495] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[26Dec2023 00:07:24.606] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[26Dec2023 00:07:24.609] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[26Dec2023 00:07:24.615] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[26Dec2023 00:07:24.617] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[26Dec2023 00:07:24.620] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[26Dec2023 00:07:28.258] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[26Dec2023 00:07:30.356] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1141 advancements
-[26Dec2023 00:07:30.942] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[26Dec2023 00:07:31.000] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
-[26Dec2023 00:07:31.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[26Dec2023 00:07:31.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[26Dec2023 00:07:32.931] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:32.931] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:32.931] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:32.975] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:33.492] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:34.156] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:34.464] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:35.065] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:35.482] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:35.964] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:36.461] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[26Dec2023 00:07:36.979] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
-[26Dec2023 00:07:37.475] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[26Dec2023 00:07:37.988] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[26Dec2023 00:07:38.490] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[26Dec2023 00:07:38.985] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
-[26Dec2023 00:07:39.469] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[26Dec2023 00:07:39.981] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[26Dec2023 00:07:40.485] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[26Dec2023 00:07:41.155] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[26Dec2023 00:07:42.111] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[26Dec2023 00:07:42.112] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[26Dec2023 00:07:42.307] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10855 ms
-[26Dec2023 00:07:42.312] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[26Dec2023 00:07:42.888] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[26Dec2023 00:07:42.893] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[26Dec2023 00:07:45.509] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[26Dec2023 00:07:46.005] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@61d67ba4
-[26Dec2023 00:07:46.040] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:f306f4be] logged in with entity id 170 at (-43.77661879729388, -27.410941803904336, 217.676591021221)
-[26Dec2023 00:07:46.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[26Dec2023 00:07:46.272] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2109ms or 42 ticks behind
-[26Dec2023 00:07:48.727] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 31 advancements
-[26Dec2023 00:07:50.612] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[26Dec2023 00:07:50.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
-[26Dec2023 00:07:52.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
-[26Dec2023 00:07:52.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
-[26Dec2023 00:08:25.483] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 32 advancements
-[26Dec2023 00:08:33.064] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[26Dec2023 00:08:33.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
-[26Dec2023 00:08:33.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
-[26Dec2023 00:08:33.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
-[26Dec2023 00:08:33.901] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[26Dec2023 00:08:33.928] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[26Dec2023 00:08:33.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[26Dec2023 00:08:33.949] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[26Dec2023 00:08:33.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[26Dec2023 00:08:33.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[26Dec2023 00:08:33.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[26Dec2023 00:08:35.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
-[26Dec2023 00:08:37.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
-[26Dec2023 00:08:37.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
-[26Dec2023 00:08:37.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Test): All chunks are saved
-[26Dec2023 00:08:37.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[26Dec2023 00:08:37.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[26Dec2023 00:08:37.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[30Dec2023 18:07:13.003] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\dover\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.1.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[30Dec2023 18:07:13.013] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.9 by Eclipse Adoptium
+[30Dec2023 18:07:13.701] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/dover/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2322!/ Service=ModLauncher Env=CLIENT
+[30Dec2023 18:07:19.768] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\dover\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
+[30Dec2023 18:07:41.701] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/dover/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar%2376!/assets/.mcassetsroot' uses unexpected schema
+[30Dec2023 18:07:41.701] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/dover/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar%2376!/data/.mcassetsroot' uses unexpected schema
+[30Dec2023 18:07:41.936] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Dec2023 18:07:42.033] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[30Dec2023 18:07:43.184] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[30Dec2023 18:07:56.864] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.0, for MC 1.18.2 with MCP 20220404.173914
+[30Dec2023 18:07:56.881] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.0 Initialized
+[30Dec2023 18:08:06.903] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[30Dec2023 18:08:07.233] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[30Dec2023 18:08:08.043] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[30Dec2023 18:08:11.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Dec2023 18:08:13.285] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.1.0 Target: 40.2.0
+[30Dec2023 18:08:22.930] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/one/purple_pylon' referenced from: transit_add_on:purple_pylon#: java.io.FileNotFoundException: transit_add_on:models/block/one/purple_pylon.json
+[30Dec2023 18:08:22.933] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_orange_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_orange_pylon.json
+[30Dec2023 18:08:22.936] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_orange_pylon.json' missing model for variant: 'transit_add_on:red_orange_pylon#'
+[30Dec2023 18:08:22.942] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_yellow_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_yellow_pylon.json
+[30Dec2023 18:08:22.943] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_yellow_pylon.json' missing model for variant: 'transit_add_on:red_yellow_pylon#'
+[30Dec2023 18:08:22.948] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_green_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_green_pylon.json
+[30Dec2023 18:08:22.948] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_green_pylon.json' missing model for variant: 'transit_add_on:red_green_pylon#'
+[30Dec2023 18:08:22.949] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_blue_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_blue_pylon.json
+[30Dec2023 18:08:22.952] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_blue_pylon.json' missing model for variant: 'transit_add_on:red_blue_pylon#'
+[30Dec2023 18:08:22.954] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_purple_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_purple_pylon.json
+[30Dec2023 18:08:22.955] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_purple_pylon.json' missing model for variant: 'transit_add_on:red_purple_pylon#'
+[30Dec2023 18:08:22.956] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/orange_yellow_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/orange_yellow_pylon.json
+[30Dec2023 18:08:22.956] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/orange_yellow_pylon.json' missing model for variant: 'transit_add_on:orange_yellow_pylon#'
+[30Dec2023 18:08:22.958] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/orange_green_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/orange_green_pylon.json
+[30Dec2023 18:08:22.959] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/orange_green_pylon.json' missing model for variant: 'transit_add_on:orange_green_pylon#'
+[30Dec2023 18:08:22.962] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/orange_blue_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/orange_blue_pylon.json
+[30Dec2023 18:08:22.962] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/orange_blue_pylon.json' missing model for variant: 'transit_add_on:orange_blue_pylon#'
+[30Dec2023 18:08:22.963] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/orange_purple_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/orange_purple_pylon.json
+[30Dec2023 18:08:22.963] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/orange_purple_pylon.json' missing model for variant: 'transit_add_on:orange_purple_pylon#'
+[30Dec2023 18:08:22.964] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/yellow_green_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/yellow_green_pylon.json
+[30Dec2023 18:08:22.964] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/yellow_green_pylon.json' missing model for variant: 'transit_add_on:yellow_green_pylon#'
+[30Dec2023 18:08:22.965] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/yellow_blue_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/yellow_blue_pylon.json
+[30Dec2023 18:08:22.965] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/yellow_blue_pylon.json' missing model for variant: 'transit_add_on:yellow_blue_pylon#'
+[30Dec2023 18:08:22.966] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/yellow_purple_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/yellow_purple_pylon.json
+[30Dec2023 18:08:22.966] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/yellow_purple_pylon.json' missing model for variant: 'transit_add_on:yellow_purple_pylon#'
+[30Dec2023 18:08:22.966] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/green_blue_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/green_blue_pylon.json
+[30Dec2023 18:08:22.966] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/green_blue_pylon.json' missing model for variant: 'transit_add_on:green_blue_pylon#'
+[30Dec2023 18:08:22.967] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/green_purple_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/green_purple_pylon.json
+[30Dec2023 18:08:22.967] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/green_purple_pylon.json' missing model for variant: 'transit_add_on:green_purple_pylon#'
+[30Dec2023 18:08:22.972] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/blue_purple_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/blue_purple_pylon.json
+[30Dec2023 18:08:22.974] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/blue_purple_pylon.json' missing model for variant: 'transit_add_on:blue_purple_pylon#'
+[30Dec2023 18:08:27.631] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/red_pylon' referenced from: transit_add_on:red_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/red_pylon.json
+[30Dec2023 18:08:27.634] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/orange_pylon' referenced from: transit_add_on:orange_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/orange_pylon.json
+[30Dec2023 18:08:27.639] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/yellow_pylon' referenced from: transit_add_on:yellow_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/yellow_pylon.json
+[30Dec2023 18:08:27.648] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/green_pylon' referenced from: transit_add_on:green_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/green_pylon.json
+[30Dec2023 18:08:27.649] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:blue_pylon#inventory' referenced from: transit_add_on:blue_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/blue_pylon.json
+[30Dec2023 18:08:27.651] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:purple_pylon#inventory' referenced from: transit_add_on:purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/purple_pylon.json
+[30Dec2023 18:08:27.652] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_orange_pylon#inventory' referenced from: transit_add_on:red_orange_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_orange_pylon.json
+[30Dec2023 18:08:27.653] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_yellow_pylon#inventory' referenced from: transit_add_on:red_yellow_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_yellow_pylon.json
+[30Dec2023 18:08:27.656] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_green_pylon#inventory' referenced from: transit_add_on:red_green_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_green_pylon.json
+[30Dec2023 18:08:27.660] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_blue_pylon#inventory' referenced from: transit_add_on:red_blue_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_blue_pylon.json
+[30Dec2023 18:08:27.661] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_purple_pylon#inventory' referenced from: transit_add_on:red_purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_purple_pylon.json
+[30Dec2023 18:08:27.663] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:orange_yellow_pylon#inventory' referenced from: transit_add_on:orange_yellow_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/orange_yellow_pylon.json
+[30Dec2023 18:08:27.668] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:orange_green_pylon#inventory' referenced from: transit_add_on:orange_green_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/orange_green_pylon.json
+[30Dec2023 18:08:27.671] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:orange_blue_pylon#inventory' referenced from: transit_add_on:orange_blue_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/orange_blue_pylon.json
+[30Dec2023 18:08:27.672] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:orange_purple_pylon#inventory' referenced from: transit_add_on:orange_purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/orange_purple_pylon.json
+[30Dec2023 18:08:27.676] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:yellow_green_pylon#inventory' referenced from: transit_add_on:yellow_green_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/yellow_green_pylon.json
+[30Dec2023 18:08:27.679] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:yellow_blue_pylon#inventory' referenced from: transit_add_on:yellow_blue_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/yellow_blue_pylon.json
+[30Dec2023 18:08:27.680] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:yellow_purple_pylon#inventory' referenced from: transit_add_on:yellow_purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/yellow_purple_pylon.json
+[30Dec2023 18:08:27.680] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:green_blue_pylon#inventory' referenced from: transit_add_on:green_blue_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/green_blue_pylon.json
+[30Dec2023 18:08:27.681] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:green_purple_pylon#inventory' referenced from: transit_add_on:green_purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/green_purple_pylon.json
+[30Dec2023 18:08:27.682] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:blue_purple_pylon#inventory' referenced from: transit_add_on:blue_purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/blue_purple_pylon.json
+[30Dec2023 18:08:28.916] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/red_pylon
+[30Dec2023 18:08:28.918] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/orange_pylon
+[30Dec2023 18:08:28.919] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/green_pylon
+[30Dec2023 18:08:28.919] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/yellow_pylon
+[30Dec2023 18:08:39.034] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (WH201A)
+[30Dec2023 18:08:39.041] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[30Dec2023 18:08:39.289] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[30Dec2023 18:08:39.297] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
+[30Dec2023 18:08:39.298] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[30Dec2023 18:08:39.299] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[30Dec2023 18:08:39.300] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[30Dec2023 18:08:39.301] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[30Dec2023 18:08:39.302] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[30Dec2023 18:08:41.772] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[30Dec2023 18:08:41.774] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[30Dec2023 18:08:41.775] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[30Dec2023 18:08:45.048] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[30Dec2023 18:09:10.229] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30Dec2023 18:09:10.231] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30Dec2023 18:09:10.235] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30Dec2023 18:09:10.237] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30Dec2023 18:09:10.240] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30Dec2023 18:09:12.999] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[30Dec2023 18:09:14.870] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1141 advancements
+[30Dec2023 18:09:15.492] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Dec2023 18:09:15.545] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
+[30Dec2023 18:09:15.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Dec2023 18:09:15.652] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\forge-server.toml is not correct. Correcting
+[30Dec2023 18:09:15.655] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2023 18:09:15.656] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[30Dec2023 18:09:15.658] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[30Dec2023 18:09:15.658] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[30Dec2023 18:09:15.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[30Dec2023 18:09:15.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[30Dec2023 18:09:15.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.skipEmptyShapelessCheck was corrected from null to its default, true. 
+[30Dec2023 18:09:15.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[30Dec2023 18:09:15.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[30Dec2023 18:09:24.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Dec2023 18:09:25.679] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:25.680] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:25.680] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:26.268] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:26.675] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:27.180] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:27.714] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:28.178] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[30Dec2023 18:09:28.680] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[30Dec2023 18:09:29.153] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[30Dec2023 18:09:29.662] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[30Dec2023 18:09:30.163] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[30Dec2023 18:09:30.660] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[30Dec2023 18:09:31.188] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[30Dec2023 18:09:31.654] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[30Dec2023 18:09:32.184] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[30Dec2023 18:09:32.677] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[30Dec2023 18:09:33.154] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[30Dec2023 18:09:33.656] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[30Dec2023 18:09:34.164] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[30Dec2023 18:09:34.662] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[30Dec2023 18:09:35.189] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[30Dec2023 18:09:35.691] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[30Dec2023 18:09:36.163] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[30Dec2023 18:09:36.690] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[30Dec2023 18:09:37.193] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[30Dec2023 18:09:37.654] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[30Dec2023 18:09:38.157] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[30Dec2023 18:09:38.680] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[30Dec2023 18:09:39.158] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[30Dec2023 18:09:39.688] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[30Dec2023 18:09:40.162] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[30Dec2023 18:09:40.683] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[30Dec2023 18:09:41.176] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[30Dec2023 18:09:41.688] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[30Dec2023 18:09:42.158] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[30Dec2023 18:09:42.669] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
+[30Dec2023 18:09:43.186] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
+[30Dec2023 18:09:43.673] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
+[30Dec2023 18:09:44.164] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[30Dec2023 18:09:44.671] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[30Dec2023 18:09:45.189] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[30Dec2023 18:09:45.658] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[30Dec2023 18:09:46.185] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
+[30Dec2023 18:09:46.667] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[30Dec2023 18:09:47.169] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[30Dec2023 18:09:47.666] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[30Dec2023 18:09:48.193] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
+[30Dec2023 18:09:48.687] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[30Dec2023 18:09:49.179] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[30Dec2023 18:09:49.674] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
+[30Dec2023 18:09:50.185] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
+[30Dec2023 18:09:50.689] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[30Dec2023 18:09:51.166] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[30Dec2023 18:09:51.669] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[30Dec2023 18:09:52.182] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[30Dec2023 18:09:52.660] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[30Dec2023 18:09:53.182] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[30Dec2023 18:09:53.732] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[30Dec2023 18:09:54.181] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[30Dec2023 18:09:54.679] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[30Dec2023 18:09:55.176] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[30Dec2023 18:09:55.502] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30Dec2023 18:09:55.507] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 30856 ms
+[30Dec2023 18:09:55.661] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[30Dec2023 18:09:55.666] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[30Dec2023 18:09:56.967] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[30Dec2023 18:09:57.044] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@321b22f1
+[30Dec2023 18:09:57.081] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:2a7cb721] logged in with entity id 202 at (8.5, 76.0, 33.5)
+[30Dec2023 18:09:57.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[30Dec2023 18:09:57.796] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[30Dec2023 18:09:59.600] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30Dec2023 18:09:59.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30Dec2023 18:10:01.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30Dec2023 18:10:01.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Dec2023 18:10:01.762] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2910ms or 58 ticks behind
+[30Dec2023 18:10:03.353] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30Dec2023 18:10:03.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30Dec2023 18:10:03.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30Dec2023 18:10:03.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Dec2023 18:10:05.399] [Render thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[30Dec2023 18:10:05.432] [Render thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Started serving on 51934
+[30Dec2023 18:10:05.460] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Local game hosted on port 51934
+[30Dec2023 18:10:09.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[30Dec2023 18:10:09.200] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Creative Mode
+[30Dec2023 18:12:12.753] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[30Dec2023 18:12:12.810] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[30Dec2023 18:12:12.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[30Dec2023 18:12:12.827] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[30Dec2023 18:12:12.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30Dec2023 18:12:12.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30Dec2023 18:12:12.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30Dec2023 18:12:14.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30Dec2023 18:12:16.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30Dec2023 18:12:16.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Dec2023 18:12:16.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[30Dec2023 18:12:16.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30Dec2023 18:12:16.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Dec2023 18:12:16.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

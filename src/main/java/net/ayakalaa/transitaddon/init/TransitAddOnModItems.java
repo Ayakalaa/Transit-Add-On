@@ -20,7 +20,7 @@ public class TransitAddOnModItems {
 	public static final RegistryObject<Item> EXAMPLE_BLOCK = block(TransitAddOnModBlocks.EXAMPLE_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> EXAMPLE_ORE = block(TransitAddOnModBlocks.EXAMPLE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
-	
+	//Single Pylon Colors
 	public static final RegistryObject<Item> RED_PYLON = block(TransitAddOnModBlocks.RED_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> ORANGE_PYLON = block(TransitAddOnModBlocks.ORANGE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> YELLOW_PYLON = block(TransitAddOnModBlocks.YELLOW_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
@@ -28,12 +28,30 @@ public class TransitAddOnModItems {
 	public static final RegistryObject<Item> BLUE_PYLON = block(TransitAddOnModBlocks.BLUE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> PURPLE_PYLON = block(TransitAddOnModBlocks.PURPLE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	
+	//Two Pylon Colors, RED
 	public static final RegistryObject<Item> RED_ORANGE_PYLON = block(TransitAddOnModBlocks.RED_ORANGE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RED_YELLOW_PYLON = block(TransitAddOnModBlocks.RED_YELLOW_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RED_GREEN_PYLON = block(TransitAddOnModBlocks.RED_GREEN_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RED_BLUE_PYLON = block(TransitAddOnModBlocks.RED_BLUE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RED_PURPLE_PYLON = block(TransitAddOnModBlocks.RED_PURPLE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
+	//Two Pylon Colors, ORANGE
+	public static final RegistryObject<Item> ORANGE_YELLOW_PYLON = block(TransitAddOnModBlocks.ORANGE_YELLOW_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ORANGE_GREEN_PYLON = block(TransitAddOnModBlocks.ORANGE_GREEN_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ORANGE_BLUE_PYLON = block(TransitAddOnModBlocks.ORANGE_BLUE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ORANGE_PURPLE_PYLON = block(TransitAddOnModBlocks.ORANGE_PURPLE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+	//Two Pylon Colors, YELLOW
+	public static final RegistryObject<Item> YELLOW_GREEN_PYLON = block(TransitAddOnModBlocks.YELLOW_GREEN_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> YELLOW_BLUE_PYLON = block(TransitAddOnModBlocks.YELLOW_BLUE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> YELLOW_PURPLE_PYLON = block(TransitAddOnModBlocks.YELLOW_PURPLE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+	//Two Pylon Colors, GREEN
+	public static final RegistryObject<Item> GREEN_BLUE_PYLON = block(TransitAddOnModBlocks.GREEN_BLUE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GREEN_PURPLE_PYLON = block(TransitAddOnModBlocks.GREEN_PURPLE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+	//Two Pylon Colors, BLUE
+	public static final RegistryObject<Item> BLUE_PURPLE_PYLON = block(TransitAddOnModBlocks.BLUE_PURPLE_PYLON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 
 

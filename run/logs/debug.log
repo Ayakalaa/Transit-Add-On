@@ -1,182 +1,182 @@
-[26Dec2023 00:05:45.289] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\dover\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.1.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
-[26Dec2023 00:05:45.326] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.9 by Eclipse Adoptium
-[26Dec2023 00:05:45.384] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
-[26Dec2023 00:05:45.416] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
-[26Dec2023 00:05:45.453] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
-[26Dec2023 00:05:45.481] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
-[26Dec2023 00:05:45.500] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@3bd418e4
-[26Dec2023 00:05:45.556] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
-[26Dec2023 00:05:45.561] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
-[26Dec2023 00:05:45.567] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
-[26Dec2023 00:05:45.568] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
-[26Dec2023 00:05:45.569] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
-[26Dec2023 00:05:45.587] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
-[26Dec2023 00:05:45.588] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
-[26Dec2023 00:05:45.589] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 9.1.3+9.1.3+main.9b69c82a
-[26Dec2023 00:05:45.590] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
-[26Dec2023 00:05:45.592] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 5.0.7+5.0.7+master.6d3407cc
-[26Dec2023 00:05:45.593] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
-[26Dec2023 00:05:45.602] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.3+5.0.3+master.611f2781
-[26Dec2023 00:05:45.604] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 4.0.15-4.x+4.0.15-4.x+4.x.038e91c0
-[26Dec2023 00:05:45.605] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 4
-[26Dec2023 00:05:45.610] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
-[26Dec2023 00:05:45.618] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
-[26Dec2023 00:05:45.642] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
-[26Dec2023 00:05:45.643] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
-[26Dec2023 00:05:45.727] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@4516af24
-[26Dec2023 00:05:45.807] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/dover/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2322!/ Service=ModLauncher Env=CLIENT
-[26Dec2023 00:05:45.818] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[26Dec2023 00:05:45.819] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[26Dec2023 00:05:45.823] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[26Dec2023 00:05:45.823] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[26Dec2023 00:05:45.824] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[26Dec2023 00:05:45.829] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[26Dec2023 00:05:45.839] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
-[26Dec2023 00:05:45.840] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
-[26Dec2023 00:05:45.840] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
-[26Dec2023 00:05:45.843] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : P:\Transit-Add-On\run
-[26Dec2023 00:05:45.851] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is P:\Transit-Add-On\run
-[26Dec2023 00:05:45.852] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : P:\Transit-Add-On\run\mods
-[26Dec2023 00:05:45.854] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is P:\Transit-Add-On\run\mods
-[26Dec2023 00:05:45.855] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : P:\Transit-Add-On\run\config
-[26Dec2023 00:05:45.856] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is P:\Transit-Add-On\run\config
-[26Dec2023 00:05:45.857] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is P:\Transit-Add-On\run\config\fml.toml
-[26Dec2023 00:05:45.857] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
-[26Dec2023 00:05:45.985] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : P:\Transit-Add-On\run\defaultconfigs
-[26Dec2023 00:05:45.986] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
-[26Dec2023 00:05:45.993] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
-[26Dec2023 00:05:45.994] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
-[26Dec2023 00:05:46.059] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=40.1.0, mcVersion=1.18.2, mcpVersion=20220404.173914, forgeGroup=net.minecraftforge]
-[26Dec2023 00:05:46.070] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
-[26Dec2023 00:05:46.072] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
-[26Dec2023 00:05:46.075] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
-[26Dec2023 00:05:46.075] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
-[26Dec2023 00:05:46.083] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
-[26Dec2023 00:05:46.084] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
-[26Dec2023 00:05:46.084] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
-[26Dec2023 00:05:46.086] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
-[26Dec2023 00:05:46.124] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
-[26Dec2023 00:05:46.135] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
-[26Dec2023 00:05:46.156] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates transitaddon%%P:\Transit-Add-On\build\resources\main;transitaddon%%P:\Transit-Add-On\build\classes\java\main from env
-[26Dec2023 00:05:46.159] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{transitaddon=[P:\Transit-Add-On\build\resources\main, P:\Transit-Add-On\build\classes\java\main]}]
-[26Dec2023 00:05:46.833] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar with {minecraft} mods - versions {1.18.2}
-[26Dec2023 00:05:46.849] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\dover\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.0_mapped_official_1.18.2\forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
-[26Dec2023 00:05:46.854] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate P:\Transit-Add-On\build\resources\main
-[26Dec2023 00:05:46.876] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {transit_add_on} mods - versions {1.0.0}
-[26Dec2023 00:05:46.882] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file P:\Transit-Add-On\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
-[26Dec2023 00:05:46.885] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
-[26Dec2023 00:05:46.902] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {40.1.0}
-[26Dec2023 00:05:46.902] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
-[26Dec2023 00:05:47.151] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
-[26Dec2023 00:05:47.152] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
-[26Dec2023 00:05:47.155] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
-[26Dec2023 00:05:47.156] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod registry_object_binary_compat with Javascript path coremods/registry_object_binary_compat.js
-[26Dec2023 00:05:47.157] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
-[26Dec2023 00:05:47.163] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
-[26Dec2023 00:05:47.168] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
-[26Dec2023 00:05:47.169] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/registry_object_binary_compat.js
-[26Dec2023 00:05:47.182] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
-[26Dec2023 00:05:47.260] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
-[26Dec2023 00:05:47.285] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
-[26Dec2023 00:05:47.291] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 40
-[26Dec2023 00:05:47.318] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
-[26Dec2023 00:05:47.319] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
-[26Dec2023 00:05:47.320] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
-[26Dec2023 00:05:47.365] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 1 mod requirements (1 mandatory, 0 optional)
-[26Dec2023 00:05:47.370] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
-[26Dec2023 00:05:49.072] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 28190 method mappings from methods.csv
-[26Dec2023 00:05:49.139] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 27073 field mappings from fields.csv
-[26Dec2023 00:05:49.278] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
-[26Dec2023 00:05:49.285] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
-[26Dec2023 00:05:49.288] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
-[26Dec2023 00:05:49.289] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
-[26Dec2023 00:05:49.289] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
-[26Dec2023 00:05:49.290] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
-[26Dec2023 00:05:50.054] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[26Dec2023 00:05:50.054] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
-[26Dec2023 00:05:50.356] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[26Dec2023 00:05:50.356] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
-[26Dec2023 00:05:50.551] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[26Dec2023 00:05:50.552] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/registry_object_binary_compat.js
-[26Dec2023 00:05:50.637] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[26Dec2023 00:05:50.694] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@70c53dbe to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
-[26Dec2023 00:05:50.705] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@68d651f2 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
-[26Dec2023 00:05:50.709] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3ad4a7d6 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
-[26Dec2023 00:05:50.710] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1e43e323 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
-[26Dec2023 00:05:50.724] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4a67b4ec to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
-[26Dec2023 00:05:50.733] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@10643593 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
-[26Dec2023 00:05:50.752] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@f91da5e to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
-[26Dec2023 00:05:50.753] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@eca6a74 to Target : CLASS {Lnet/minecraftforge/registries/RegistryObject;} {} {V}
-[26Dec2023 00:05:50.760] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
-[26Dec2023 00:05:52.336] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[26Dec2023 00:05:52.337] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[26Dec2023 00:05:52.338] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
-[26Dec2023 00:05:52.339] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
-[26Dec2023 00:05:52.340] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
-[26Dec2023 00:05:52.340] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
-[26Dec2023 00:05:52.340] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
-[26Dec2023 00:05:52.341] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-[26Dec2023 00:05:52.342] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(transit_add_on)
-[26Dec2023 00:05:52.342] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(transit_add_on)
-[26Dec2023 00:05:52.342] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(transit_add_on)
-[26Dec2023 00:05:52.343] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(transit_add_on)
-[26Dec2023 00:05:52.343] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(transit_add_on)
-[26Dec2023 00:05:52.344] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(transit_add_on)]
-[26Dec2023 00:05:52.344] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
-[26Dec2023 00:05:52.349] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
-[26Dec2023 00:05:52.353] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
-[26Dec2023 00:05:52.354] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
-[26Dec2023 00:05:52.354] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
-[26Dec2023 00:05:52.354] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-[26Dec2023 00:05:52.357] [main/DEBUG] [mixin/]: inject() running with 4 agents
-[26Dec2023 00:05:52.357] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[26Dec2023 00:05:52.359] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-[26Dec2023 00:05:52.359] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(transit_add_on)]
-[26Dec2023 00:05:52.361] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-[26Dec2023 00:05:52.399] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\dover\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
-[26Dec2023 00:05:53.001] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
-[26Dec2023 00:05:53.044] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[26Dec2023 00:05:53.170] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
-[26Dec2023 00:05:53.189] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
-[26Dec2023 00:05:53.190] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
-[26Dec2023 00:05:54.540] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@302edb74
-[26Dec2023 00:05:56.303] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@302edb74
-[26Dec2023 00:05:58.141] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
-[26Dec2023 00:05:58.265] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
-[26Dec2023 00:05:58.499] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
-[26Dec2023 00:06:00.951] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
-[26Dec2023 00:06:13.579] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
-[26Dec2023 00:06:14.283] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
-[26Dec2023 00:06:21.324] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/dover/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar%2376!/assets/.mcassetsroot' uses unexpected schema
-[26Dec2023 00:06:21.325] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/dover/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar%2376!/data/.mcassetsroot' uses unexpected schema
-[26Dec2023 00:06:21.444] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[26Dec2023 00:06:21.485] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[26Dec2023 00:06:22.201] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
-[26Dec2023 00:06:24.891] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5349
-[26Dec2023 00:06:24.941] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 8 threads for parallel mod-loading
-[26Dec2023 00:06:24.961] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@302edb74 - got cpw.mods.cl.ModuleClassLoader@32c0915e
-[26Dec2023 00:06:24.961] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.ayakalaa.transitaddon.TransitAddOnMod
-[26Dec2023 00:06:24.984] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@302edb74 - got cpw.mods.cl.ModuleClassLoader@32c0915e
-[26Dec2023 00:06:24.984] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
-[26Dec2023 00:06:25.125] [modloading-worker-0/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraftforge/registries/RegistryObject
-[26Dec2023 00:06:25.556] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 40.1 from cpw.mods.modlauncher.TransformingClassLoader@302edb74
-[26Dec2023 00:06:25.560] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 40.1.0
-[26Dec2023 00:06:25.560] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 40.1
-[26Dec2023 00:06:25.560] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
-[26Dec2023 00:06:25.565] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.18.2 from cpw.mods.modlauncher.TransformingClassLoader@302edb74
-[26Dec2023 00:06:25.565] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.18.2
-[26Dec2023 00:06:25.565] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220404.173914
-[26Dec2023 00:06:25.567] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.0, for MC 1.18.2 with MCP 20220404.173914
-[26Dec2023 00:06:25.575] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.0 Initialized
-[26Dec2023 00:06:25.641] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for transit_add_on
-[26Dec2023 00:06:25.668] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ayakalaa.transitaddon.init.TransitAddOnModFeatures to FORGE
-[26Dec2023 00:06:25.712] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ayakalaa.transitaddon.world.features.ores.ExampleOreFeature$ExampleOreFeatureRuleTest to MOD
-[26Dec2023 00:06:25.902] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
-[26Dec2023 00:06:25.903] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
-[26Dec2023 00:06:25.908] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
-[26Dec2023 00:06:25.913] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
-[26Dec2023 00:06:25.914] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
-[26Dec2023 00:06:25.924] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+[30Dec2023 18:07:13.003] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\dover\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.1.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[30Dec2023 18:07:13.013] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.9 by Eclipse Adoptium
+[30Dec2023 18:07:13.078] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[30Dec2023 18:07:13.168] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[30Dec2023 18:07:13.299] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[30Dec2023 18:07:13.376] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[30Dec2023 18:07:13.402] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@2f4205be
+[30Dec2023 18:07:13.449] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[30Dec2023 18:07:13.451] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[30Dec2023 18:07:13.461] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[30Dec2023 18:07:13.463] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[30Dec2023 18:07:13.465] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[30Dec2023 18:07:13.482] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[30Dec2023 18:07:13.483] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[30Dec2023 18:07:13.485] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 9.1.3+9.1.3+main.9b69c82a
+[30Dec2023 18:07:13.487] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[30Dec2023 18:07:13.490] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 5.0.7+5.0.7+master.6d3407cc
+[30Dec2023 18:07:13.492] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[30Dec2023 18:07:13.499] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.3+5.0.3+master.611f2781
+[30Dec2023 18:07:13.501] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 4.0.15-4.x+4.0.15-4.x+4.x.038e91c0
+[30Dec2023 18:07:13.501] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 4
+[30Dec2023 18:07:13.509] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[30Dec2023 18:07:13.513] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[30Dec2023 18:07:13.527] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[30Dec2023 18:07:13.529] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[30Dec2023 18:07:13.615] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@4516af24
+[30Dec2023 18:07:13.701] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/dover/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2322!/ Service=ModLauncher Env=CLIENT
+[30Dec2023 18:07:13.716] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[30Dec2023 18:07:13.717] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[30Dec2023 18:07:13.718] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[30Dec2023 18:07:13.719] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[30Dec2023 18:07:13.726] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[30Dec2023 18:07:13.729] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[30Dec2023 18:07:13.739] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[30Dec2023 18:07:13.741] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[30Dec2023 18:07:13.743] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[30Dec2023 18:07:13.749] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : P:\Transit-Add-On\run
+[30Dec2023 18:07:13.750] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is P:\Transit-Add-On\run
+[30Dec2023 18:07:13.751] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : P:\Transit-Add-On\run\mods
+[30Dec2023 18:07:13.751] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is P:\Transit-Add-On\run\mods
+[30Dec2023 18:07:13.752] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : P:\Transit-Add-On\run\config
+[30Dec2023 18:07:13.752] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is P:\Transit-Add-On\run\config
+[30Dec2023 18:07:13.753] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is P:\Transit-Add-On\run\config\fml.toml
+[30Dec2023 18:07:13.753] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[30Dec2023 18:07:13.857] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : P:\Transit-Add-On\run\defaultconfigs
+[30Dec2023 18:07:13.857] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[30Dec2023 18:07:13.863] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[30Dec2023 18:07:13.864] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[30Dec2023 18:07:13.902] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=40.1.0, mcVersion=1.18.2, mcpVersion=20220404.173914, forgeGroup=net.minecraftforge]
+[30Dec2023 18:07:13.909] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[30Dec2023 18:07:13.910] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[30Dec2023 18:07:13.912] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[30Dec2023 18:07:13.913] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[30Dec2023 18:07:13.916] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[30Dec2023 18:07:13.917] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[30Dec2023 18:07:13.919] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[30Dec2023 18:07:13.919] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[30Dec2023 18:07:13.964] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[30Dec2023 18:07:13.969] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[30Dec2023 18:07:13.982] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates transitaddon%%P:\Transit-Add-On\build\resources\main;transitaddon%%P:\Transit-Add-On\build\classes\java\main from env
+[30Dec2023 18:07:13.985] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{transitaddon=[P:\Transit-Add-On\build\resources\main, P:\Transit-Add-On\build\classes\java\main]}]
+[30Dec2023 18:07:14.501] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar with {minecraft} mods - versions {1.18.2}
+[30Dec2023 18:07:14.513] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\dover\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.0_mapped_official_1.18.2\forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[30Dec2023 18:07:14.515] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate P:\Transit-Add-On\build\resources\main
+[30Dec2023 18:07:14.541] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {transit_add_on} mods - versions {1.0.0}
+[30Dec2023 18:07:14.542] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file P:\Transit-Add-On\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[30Dec2023 18:07:14.543] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[30Dec2023 18:07:14.549] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {40.1.0}
+[30Dec2023 18:07:14.551] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[30Dec2023 18:07:14.663] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[30Dec2023 18:07:14.664] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[30Dec2023 18:07:14.664] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[30Dec2023 18:07:14.664] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod registry_object_binary_compat with Javascript path coremods/registry_object_binary_compat.js
+[30Dec2023 18:07:14.665] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[30Dec2023 18:07:14.665] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[30Dec2023 18:07:14.665] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[30Dec2023 18:07:14.665] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/registry_object_binary_compat.js
+[30Dec2023 18:07:14.675] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[30Dec2023 18:07:14.748] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[30Dec2023 18:07:14.750] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[30Dec2023 18:07:14.752] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 40
+[30Dec2023 18:07:14.800] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[30Dec2023 18:07:14.801] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[30Dec2023 18:07:14.802] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[30Dec2023 18:07:14.830] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 1 mod requirements (1 mandatory, 0 optional)
+[30Dec2023 18:07:14.833] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[30Dec2023 18:07:16.448] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 28190 method mappings from methods.csv
+[30Dec2023 18:07:16.550] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 27073 field mappings from fields.csv
+[30Dec2023 18:07:16.811] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[30Dec2023 18:07:16.812] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[30Dec2023 18:07:16.816] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[30Dec2023 18:07:16.817] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[30Dec2023 18:07:16.828] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[30Dec2023 18:07:16.833] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[30Dec2023 18:07:17.793] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[30Dec2023 18:07:17.793] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[30Dec2023 18:07:18.026] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[30Dec2023 18:07:18.028] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[30Dec2023 18:07:18.130] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[30Dec2023 18:07:18.131] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/registry_object_binary_compat.js
+[30Dec2023 18:07:18.270] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[30Dec2023 18:07:18.310] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6cd5122d to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[30Dec2023 18:07:18.312] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1d23ff23 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[30Dec2023 18:07:18.313] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2133661d to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[30Dec2023 18:07:18.313] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6c9320c2 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[30Dec2023 18:07:18.314] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3414a8c3 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[30Dec2023 18:07:18.315] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@36cc9385 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[30Dec2023 18:07:18.315] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@cf518cf to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[30Dec2023 18:07:18.315] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7915bca3 to Target : CLASS {Lnet/minecraftforge/registries/RegistryObject;} {} {V}
+[30Dec2023 18:07:18.315] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[30Dec2023 18:07:19.649] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[30Dec2023 18:07:19.650] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[30Dec2023 18:07:19.651] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[30Dec2023 18:07:19.652] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[30Dec2023 18:07:19.654] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[30Dec2023 18:07:19.655] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[30Dec2023 18:07:19.655] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[30Dec2023 18:07:19.665] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[30Dec2023 18:07:19.666] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(transit_add_on)
+[30Dec2023 18:07:19.667] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(transit_add_on)
+[30Dec2023 18:07:19.680] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(transit_add_on)
+[30Dec2023 18:07:19.680] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(transit_add_on)
+[30Dec2023 18:07:19.681] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(transit_add_on)
+[30Dec2023 18:07:19.681] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(transit_add_on)]
+[30Dec2023 18:07:19.682] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[30Dec2023 18:07:19.682] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[30Dec2023 18:07:19.682] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[30Dec2023 18:07:19.683] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[30Dec2023 18:07:19.683] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[30Dec2023 18:07:19.683] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[30Dec2023 18:07:19.683] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[30Dec2023 18:07:19.683] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[30Dec2023 18:07:19.684] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[30Dec2023 18:07:19.684] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(transit_add_on)]
+[30Dec2023 18:07:19.684] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[30Dec2023 18:07:19.768] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\dover\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
+[30Dec2023 18:07:20.100] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[30Dec2023 18:07:20.145] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[30Dec2023 18:07:20.317] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[30Dec2023 18:07:20.330] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[30Dec2023 18:07:20.330] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[30Dec2023 18:07:21.814] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@336206d8
+[30Dec2023 18:07:22.753] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@336206d8
+[30Dec2023 18:07:25.069] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[30Dec2023 18:07:25.300] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[30Dec2023 18:07:25.525] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[30Dec2023 18:07:27.397] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[30Dec2023 18:07:36.969] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[30Dec2023 18:07:37.450] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[30Dec2023 18:07:41.701] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/dover/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar%2376!/assets/.mcassetsroot' uses unexpected schema
+[30Dec2023 18:07:41.701] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/dover/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar%2376!/data/.mcassetsroot' uses unexpected schema
+[30Dec2023 18:07:41.936] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Dec2023 18:07:42.033] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[30Dec2023 18:07:43.184] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[30Dec2023 18:07:54.871] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5349
+[30Dec2023 18:07:55.144] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 8 threads for parallel mod-loading
+[30Dec2023 18:07:55.236] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@336206d8 - got cpw.mods.cl.ModuleClassLoader@7692cd34
+[30Dec2023 18:07:55.249] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.ayakalaa.transitaddon.TransitAddOnMod
+[30Dec2023 18:07:55.345] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@336206d8 - got cpw.mods.cl.ModuleClassLoader@7692cd34
+[30Dec2023 18:07:55.345] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[30Dec2023 18:07:55.782] [modloading-worker-0/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraftforge/registries/RegistryObject
+[30Dec2023 18:07:56.832] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 40.1 from cpw.mods.modlauncher.TransformingClassLoader@336206d8
+[30Dec2023 18:07:56.851] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 40.1.0
+[30Dec2023 18:07:56.852] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 40.1
+[30Dec2023 18:07:56.852] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[30Dec2023 18:07:56.863] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.18.2 from cpw.mods.modlauncher.TransformingClassLoader@336206d8
+[30Dec2023 18:07:56.863] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.18.2
+[30Dec2023 18:07:56.864] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220404.173914
+[30Dec2023 18:07:56.864] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.0, for MC 1.18.2 with MCP 20220404.173914
+[30Dec2023 18:07:56.881] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.0 Initialized
+[30Dec2023 18:07:56.985] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for transit_add_on
+[30Dec2023 18:07:57.053] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ayakalaa.transitaddon.init.TransitAddOnModFeatures to FORGE
+[30Dec2023 18:07:57.127] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ayakalaa.transitaddon.world.features.ores.ExampleOreFeature$ExampleOreFeatureRuleTest to MOD
+[30Dec2023 18:07:57.543] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[30Dec2023 18:07:57.544] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[30Dec2023 18:07:57.550] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[30Dec2023 18:07:57.551] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[30Dec2023 18:07:57.562] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[30Dec2023 18:07:57.563] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
 java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
 	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:253) ~[netty-all-4.1.68.Final.jar%2332!/:4.1.68.Final]
@@ -203,8 +203,8 @@ java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[26Dec2023 00:06:25.936] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
-[26Dec2023 00:06:25.943] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+[30Dec2023 18:07:57.581] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[30Dec2023 18:07:57.593] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
 java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 (in module io.netty.all) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.all
 	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
 	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
@@ -233,51 +233,45 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[26Dec2023 00:06:25.951] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
-[26Dec2023 00:06:25.952] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
-[26Dec2023 00:06:25.958] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 4227858432 bytes (maybe)
-[26Dec2023 00:06:25.959] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\dover\AppData\Local\Temp (java.io.tmpdir)
-[26Dec2023 00:06:25.960] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[26Dec2023 00:06:25.960] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
-[26Dec2023 00:06:25.967] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
-[26Dec2023 00:06:25.968] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[26Dec2023 00:06:25.973] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
-[26Dec2023 00:06:25.981] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
-[26Dec2023 00:06:26.077] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML2
-[26Dec2023 00:06:26.157] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
-[26Dec2023 00:06:26.163] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
-[26Dec2023 00:06:26.163] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
-[26Dec2023 00:06:26.292] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
-[26Dec2023 00:06:26.298] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
-[26Dec2023 00:06:26.310] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
-[26Dec2023 00:06:26.327] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
-[26Dec2023 00:06:26.343] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
-[26Dec2023 00:06:26.922] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:transit_add_on for mod file P:\Transit-Add-On\build\resources\main
-[26Dec2023 00:06:26.922] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file /
-[26Dec2023 00:06:27.752] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[26Dec2023 00:06:27.753] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[26Dec2023 00:06:27.755] [Render thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0xa4523ea3d7e2c2b7
-[26Dec2023 00:06:28.117] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[26Dec2023 00:06:28.207] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[26Dec2023 00:06:28.389] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[26Dec2023 00:06:28.420] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
-[26Dec2023 00:06:28.424] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for P:\Transit-Add-On\run\config\forge-client.toml
-[26Dec2023 00:06:28.439] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file P:\Transit-Add-On\run\config\forge-client.toml
-[26Dec2023 00:06:28.450] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file P:\Transit-Add-On\run\config\forge-client.toml for changes
-[26Dec2023 00:06:28.470] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
-[26Dec2023 00:06:28.484] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
-[26Dec2023 00:06:28.484] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for P:\Transit-Add-On\run\config\forge-common.toml
-[26Dec2023 00:06:28.486] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file P:\Transit-Add-On\run\config\forge-common.toml
-[26Dec2023 00:06:28.489] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-client.toml changed, sending notifies
-[26Dec2023 00:06:28.514] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
-[26Dec2023 00:06:28.522] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file P:\Transit-Add-On\run\config\forge-common.toml for changes
-[26Dec2023 00:06:28.523] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
-[26Dec2023 00:06:28.534] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-common.toml changed, sending notifies
-[26Dec2023 00:06:28.534] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
-[26Dec2023 00:06:28.647] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-common.toml changed, sending notifies
-[26Dec2023 00:06:28.652] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
-[26Dec2023 00:06:30.567] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[26Dec2023 00:06:32.527] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+[30Dec2023 18:07:57.602] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[30Dec2023 18:07:57.611] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[30Dec2023 18:07:57.612] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 4227858432 bytes (maybe)
+[30Dec2023 18:07:57.613] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\dover\AppData\Local\Temp (java.io.tmpdir)
+[30Dec2023 18:07:57.613] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[30Dec2023 18:07:57.616] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[30Dec2023 18:07:57.625] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[30Dec2023 18:07:57.625] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[30Dec2023 18:07:57.636] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[30Dec2023 18:07:57.636] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[30Dec2023 18:07:57.981] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML2
+[30Dec2023 18:07:58.151] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[30Dec2023 18:07:58.161] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[30Dec2023 18:07:58.161] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[30Dec2023 18:07:58.531] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[30Dec2023 18:07:58.533] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[30Dec2023 18:07:58.538] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
+[30Dec2023 18:07:58.550] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
+[30Dec2023 18:07:58.559] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
+[30Dec2023 18:08:00.835] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:transit_add_on for mod file P:\Transit-Add-On\build\resources\main
+[30Dec2023 18:08:00.836] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file /
+[30Dec2023 18:08:04.879] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[30Dec2023 18:08:04.880] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[30Dec2023 18:08:04.881] [Render thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x0a82634f8facd98a
+[30Dec2023 18:08:06.903] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[30Dec2023 18:08:07.233] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[30Dec2023 18:08:08.043] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[30Dec2023 18:08:08.101] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[30Dec2023 18:08:08.131] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for P:\Transit-Add-On\run\config\forge-client.toml
+[30Dec2023 18:08:08.210] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file P:\Transit-Add-On\run\config\forge-client.toml
+[30Dec2023 18:08:08.231] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file P:\Transit-Add-On\run\config\forge-client.toml for changes
+[30Dec2023 18:08:08.260] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[30Dec2023 18:08:08.263] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[30Dec2023 18:08:08.270] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for P:\Transit-Add-On\run\config\forge-common.toml
+[30Dec2023 18:08:08.361] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file P:\Transit-Add-On\run\config\forge-common.toml
+[30Dec2023 18:08:08.362] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file P:\Transit-Add-On\run\config\forge-common.toml for changes
+[30Dec2023 18:08:08.363] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
+[30Dec2023 18:08:11.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Dec2023 18:08:13.278] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
 {
   "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
   "promos": {
@@ -359,205 +353,306 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
     "1.19-recommended": "41.1.0",
     "1.19.1-latest": "42.0.9",
     "1.19.2-recommended": "43.3.0",
-    "1.19.2-latest": "43.3.5",
+    "1.19.2-latest": "43.3.6",
     "1.19.3-latest": "44.1.23",
     "1.19.3-recommended": "44.1.0",
     "1.19.4-recommended": "45.2.0",
-    "1.19.4-latest": "45.2.6",
+    "1.19.4-latest": "45.2.7",
     "1.20-latest": "46.0.14",
     "1.20.1-recommended": "47.2.0",
-    "1.20.1-latest": "47.2.18",
+    "1.20.1-latest": "47.2.19",
     "1.20.2-latest": "48.1.0",
     "1.20.2-recommended": "48.1.0",
     "1.20.3-latest": "49.0.2",
-    "1.20.4-latest": "49.0.11"
+    "1.20.4-latest": "49.0.13"
   }
 }
-[26Dec2023 00:06:32.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.1.0 Target: 40.2.0
-[26Dec2023 00:06:50.697] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/one/purple_pylon' referenced from: transit_add_on:purple_pylon#: java.io.FileNotFoundException: transit_add_on:models/block/one/purple_pylon.json
-[26Dec2023 00:06:50.699] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_orange_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_orange_pylon.json
-[26Dec2023 00:06:50.708] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_orange_pylon.json' missing model for variant: 'transit_add_on:red_orange_pylon#'
-[26Dec2023 00:06:50.710] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_yellow_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_yellow_pylon.json
-[26Dec2023 00:06:50.711] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_yellow_pylon.json' missing model for variant: 'transit_add_on:red_yellow_pylon#'
-[26Dec2023 00:06:50.717] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_green_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_green_pylon.json
-[26Dec2023 00:06:50.717] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_green_pylon.json' missing model for variant: 'transit_add_on:red_green_pylon#'
-[26Dec2023 00:06:54.015] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/red_pylon' referenced from: transit_add_on:red_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/red_pylon.json
-[26Dec2023 00:06:54.018] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/orange_pylon' referenced from: transit_add_on:orange_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/orange_pylon.json
-[26Dec2023 00:06:54.022] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/yellow_pylon' referenced from: transit_add_on:yellow_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/yellow_pylon.json
-[26Dec2023 00:06:54.027] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/green_pylon' referenced from: transit_add_on:green_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/green_pylon.json
-[26Dec2023 00:06:54.028] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:blue_pylon#inventory' referenced from: transit_add_on:blue_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/blue_pylon.json
-[26Dec2023 00:06:54.034] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:purple_pylon#inventory' referenced from: transit_add_on:purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/purple_pylon.json
-[26Dec2023 00:06:54.035] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_orange_pylon#inventory' referenced from: transit_add_on:red_orange_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_orange_pylon.json
-[26Dec2023 00:06:54.052] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_yellow_pylon#inventory' referenced from: transit_add_on:red_yellow_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_yellow_pylon.json
-[26Dec2023 00:06:54.977] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/red_pylon
-[26Dec2023 00:06:54.978] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/orange_pylon
-[26Dec2023 00:06:54.978] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/green_pylon
-[26Dec2023 00:06:54.979] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/yellow_pylon
-[26Dec2023 00:07:13.622] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5586
-[26Dec2023 00:07:14.411] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (WH201A)
-[26Dec2023 00:07:14.412] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[26Dec2023 00:07:14.726] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
-[26Dec2023 00:07:14.743] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
-[26Dec2023 00:07:14.745] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[26Dec2023 00:07:14.747] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[26Dec2023 00:07:14.748] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[26Dec2023 00:07:14.749] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[26Dec2023 00:07:14.750] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[26Dec2023 00:07:17.101] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[26Dec2023 00:07:17.103] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[26Dec2023 00:07:17.104] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[26Dec2023 00:07:17.495] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[26Dec2023 00:07:22.432] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:transit_add_on for mod file P:\Transit-Add-On\build\resources\main
-[26Dec2023 00:07:22.433] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
-[26Dec2023 00:07:24.606] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[26Dec2023 00:07:24.609] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[26Dec2023 00:07:24.615] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[26Dec2023 00:07:24.617] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[26Dec2023 00:07:24.620] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[26Dec2023 00:07:28.258] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[26Dec2023 00:07:30.356] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1141 advancements
-[26Dec2023 00:07:30.489] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Test
-[26Dec2023 00:07:30.502] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Test
-[26Dec2023 00:07:30.942] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[26Dec2023 00:07:31.000] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
-[26Dec2023 00:07:31.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[26Dec2023 00:07:31.093] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\Test\serverconfig
-[26Dec2023 00:07:31.093] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
-[26Dec2023 00:07:31.093] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\saves\Test\serverconfig\forge-server.toml
-[26Dec2023 00:07:31.097] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\saves\Test\serverconfig\forge-server.toml
-[26Dec2023 00:07:31.101] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\saves\Test\serverconfig\forge-server.toml for changes
-[26Dec2023 00:07:31.102] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
-[26Dec2023 00:07:31.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[26Dec2023 00:07:32.931] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:32.931] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:32.931] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:32.975] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:33.492] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:34.156] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:34.464] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:35.065] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:35.482] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:35.964] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2023 00:07:36.461] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[26Dec2023 00:07:36.979] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
-[26Dec2023 00:07:37.475] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[26Dec2023 00:07:37.988] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[26Dec2023 00:07:38.490] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[26Dec2023 00:07:38.985] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
-[26Dec2023 00:07:39.469] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[26Dec2023 00:07:39.981] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[26Dec2023 00:07:40.485] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[26Dec2023 00:07:41.155] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[26Dec2023 00:07:42.111] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[26Dec2023 00:07:42.112] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[26Dec2023 00:07:42.307] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10855 ms
-[26Dec2023 00:07:42.312] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[26Dec2023 00:07:42.888] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[26Dec2023 00:07:42.893] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[26Dec2023 00:07:43.000] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 16
-[26Dec2023 00:07:43.073] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
-[26Dec2023 00:07:43.073] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
-[26Dec2023 00:07:43.106] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
-[26Dec2023 00:07:43.200] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 21548 (auto-detected)
-[26Dec2023 00:07:43.205] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
-[26Dec2023 00:07:43.205] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
-[26Dec2023 00:07:43.243] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-[26Dec2023 00:07:43.249] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-[26Dec2023 00:07:43.604] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
-[26Dec2023 00:07:43.825] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 16
-[26Dec2023 00:07:43.826] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 16
-[26Dec2023 00:07:43.826] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
-[26Dec2023 00:07:43.826] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 11
-[26Dec2023 00:07:43.826] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 16777216
-[26Dec2023 00:07:43.826] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
-[26Dec2023 00:07:43.826] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
-[26Dec2023 00:07:43.826] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[26Dec2023 00:07:43.826] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
-[26Dec2023 00:07:43.826] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-[26Dec2023 00:07:43.827] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: true
-[26Dec2023 00:07:43.827] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[26Dec2023 00:07:43.861] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
-[26Dec2023 00:07:43.861] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
-[26Dec2023 00:07:43.863] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[26Dec2023 00:07:44.220] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
-[26Dec2023 00:07:44.521] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
-[26Dec2023 00:07:44.524] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxSharedCapacityFactor: 2
-[26Dec2023 00:07:44.525] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.linkCapacity: 16
-[26Dec2023 00:07:44.525] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
-[26Dec2023 00:07:44.525] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.delayedQueue.ratio: 8
-[26Dec2023 00:07:44.592] [Netty Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
-[26Dec2023 00:07:44.592] [Netty Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
-[26Dec2023 00:07:44.596] [Netty Server IO #1/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@51aa290b
-[26Dec2023 00:07:44.612] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
-[26Dec2023 00:07:44.751] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 0
-[26Dec2023 00:07:44.816] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 1
-[26Dec2023 00:07:45.318] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
-[26Dec2023 00:07:45.375] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Logging into server with mod list [minecraft, transit_add_on, forge]
-[26Dec2023 00:07:45.390] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'transit_add_on:transit_add_on' : Version test of '1' from server : ACCEPTED
-[26Dec2023 00:07:45.390] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from server : ACCEPTED
-[26Dec2023 00:07:45.391] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from server : ACCEPTED
-[26Dec2023 00:07:45.391] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from server : ACCEPTED
-[26Dec2023 00:07:45.391] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from server : ACCEPTED
-[26Dec2023 00:07:45.392] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from server : ACCEPTED
-[26Dec2023 00:07:45.392] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from server : ACCEPTED
-[26Dec2023 00:07:45.392] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from server : ACCEPTED
-[26Dec2023 00:07:45.392] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from server
-[26Dec2023 00:07:45.422] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 0
-[26Dec2023 00:07:45.433] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
-[26Dec2023 00:07:45.432] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted server connection
-[26Dec2023 00:07:45.433] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 0 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
-[26Dec2023 00:07:45.434] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, transit_add_on, forge]
-[26Dec2023 00:07:45.434] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'transit_add_on:transit_add_on' : Version test of '1' from client : ACCEPTED
-[26Dec2023 00:07:45.435] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from client : ACCEPTED
-[26Dec2023 00:07:45.435] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
-[26Dec2023 00:07:45.435] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from client : ACCEPTED
-[26Dec2023 00:07:45.435] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from client : ACCEPTED
-[26Dec2023 00:07:45.435] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from client : ACCEPTED
-[26Dec2023 00:07:45.435] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from client : ACCEPTED
-[26Dec2023 00:07:45.435] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
-[26Dec2023 00:07:45.435] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
-[26Dec2023 00:07:45.440] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
-[26Dec2023 00:07:45.452] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
-[26Dec2023 00:07:45.456] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received config sync from server
-[26Dec2023 00:07:45.476] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 1
-[26Dec2023 00:07:45.477] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
-[26Dec2023 00:07:45.477] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
-[26Dec2023 00:07:45.478] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
-[26Dec2023 00:07:45.485] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
-[26Dec2023 00:07:45.509] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[26Dec2023 00:07:46.005] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@61d67ba4
-[26Dec2023 00:07:46.040] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:f306f4be] logged in with entity id 170 at (-43.77661879729388, -27.410941803904336, 217.676591021221)
-[26Dec2023 00:07:46.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[26Dec2023 00:07:46.272] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2109ms or 42 ticks behind
-[26Dec2023 00:07:48.727] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 31 advancements
-[26Dec2023 00:07:50.612] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[26Dec2023 00:07:50.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
-[26Dec2023 00:07:52.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
-[26Dec2023 00:07:52.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
-[26Dec2023 00:07:52.562] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Test
-[26Dec2023 00:07:52.576] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Test
-[26Dec2023 00:08:25.483] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 32 advancements
-[26Dec2023 00:08:33.064] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[26Dec2023 00:08:33.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
-[26Dec2023 00:08:33.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
-[26Dec2023 00:08:33.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
-[26Dec2023 00:08:33.105] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Test
-[26Dec2023 00:08:33.114] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Test
-[26Dec2023 00:08:33.901] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[26Dec2023 00:08:33.928] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[26Dec2023 00:08:33.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[26Dec2023 00:08:33.949] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[26Dec2023 00:08:33.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[26Dec2023 00:08:33.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[26Dec2023 00:08:33.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[26Dec2023 00:08:35.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
-[26Dec2023 00:08:37.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
-[26Dec2023 00:08:37.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
-[26Dec2023 00:08:37.555] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Test
-[26Dec2023 00:08:37.562] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Test
-[26Dec2023 00:08:37.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Test): All chunks are saved
-[26Dec2023 00:08:37.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[26Dec2023 00:08:37.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[26Dec2023 00:08:37.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[26Dec2023 00:08:38.492] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\Test\serverconfig
-[26Dec2023 00:08:38.493] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[30Dec2023 18:08:13.285] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 40.1.0 Target: 40.2.0
+[30Dec2023 18:08:22.930] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/one/purple_pylon' referenced from: transit_add_on:purple_pylon#: java.io.FileNotFoundException: transit_add_on:models/block/one/purple_pylon.json
+[30Dec2023 18:08:22.933] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_orange_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_orange_pylon.json
+[30Dec2023 18:08:22.936] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_orange_pylon.json' missing model for variant: 'transit_add_on:red_orange_pylon#'
+[30Dec2023 18:08:22.942] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_yellow_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_yellow_pylon.json
+[30Dec2023 18:08:22.943] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_yellow_pylon.json' missing model for variant: 'transit_add_on:red_yellow_pylon#'
+[30Dec2023 18:08:22.948] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_green_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_green_pylon.json
+[30Dec2023 18:08:22.948] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_green_pylon.json' missing model for variant: 'transit_add_on:red_green_pylon#'
+[30Dec2023 18:08:22.949] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_blue_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_blue_pylon.json
+[30Dec2023 18:08:22.952] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_blue_pylon.json' missing model for variant: 'transit_add_on:red_blue_pylon#'
+[30Dec2023 18:08:22.954] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/red_purple_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/red_purple_pylon.json
+[30Dec2023 18:08:22.955] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/red_purple_pylon.json' missing model for variant: 'transit_add_on:red_purple_pylon#'
+[30Dec2023 18:08:22.956] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/orange_yellow_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/orange_yellow_pylon.json
+[30Dec2023 18:08:22.956] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/orange_yellow_pylon.json' missing model for variant: 'transit_add_on:orange_yellow_pylon#'
+[30Dec2023 18:08:22.958] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/orange_green_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/orange_green_pylon.json
+[30Dec2023 18:08:22.959] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/orange_green_pylon.json' missing model for variant: 'transit_add_on:orange_green_pylon#'
+[30Dec2023 18:08:22.962] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/orange_blue_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/orange_blue_pylon.json
+[30Dec2023 18:08:22.962] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/orange_blue_pylon.json' missing model for variant: 'transit_add_on:orange_blue_pylon#'
+[30Dec2023 18:08:22.963] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/orange_purple_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/orange_purple_pylon.json
+[30Dec2023 18:08:22.963] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/orange_purple_pylon.json' missing model for variant: 'transit_add_on:orange_purple_pylon#'
+[30Dec2023 18:08:22.964] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/yellow_green_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/yellow_green_pylon.json
+[30Dec2023 18:08:22.964] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/yellow_green_pylon.json' missing model for variant: 'transit_add_on:yellow_green_pylon#'
+[30Dec2023 18:08:22.965] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/yellow_blue_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/yellow_blue_pylon.json
+[30Dec2023 18:08:22.965] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/yellow_blue_pylon.json' missing model for variant: 'transit_add_on:yellow_blue_pylon#'
+[30Dec2023 18:08:22.966] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/yellow_purple_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/yellow_purple_pylon.json
+[30Dec2023 18:08:22.966] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/yellow_purple_pylon.json' missing model for variant: 'transit_add_on:yellow_purple_pylon#'
+[30Dec2023 18:08:22.966] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/green_blue_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/green_blue_pylon.json
+[30Dec2023 18:08:22.966] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/green_blue_pylon.json' missing model for variant: 'transit_add_on:green_blue_pylon#'
+[30Dec2023 18:08:22.967] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/green_purple_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/green_purple_pylon.json
+[30Dec2023 18:08:22.967] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/green_purple_pylon.json' missing model for variant: 'transit_add_on:green_purple_pylon#'
+[30Dec2023 18:08:22.972] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: transit_add_on:blockstates/blue_purple_pylon.json: java.io.FileNotFoundException: transit_add_on:blockstates/blue_purple_pylon.json
+[30Dec2023 18:08:22.974] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'transit_add_on:blockstates/blue_purple_pylon.json' missing model for variant: 'transit_add_on:blue_purple_pylon#'
+[30Dec2023 18:08:27.631] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/red_pylon' referenced from: transit_add_on:red_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/red_pylon.json
+[30Dec2023 18:08:27.634] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/orange_pylon' referenced from: transit_add_on:orange_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/orange_pylon.json
+[30Dec2023 18:08:27.639] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/yellow_pylon' referenced from: transit_add_on:yellow_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/yellow_pylon.json
+[30Dec2023 18:08:27.648] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:block/green_pylon' referenced from: transit_add_on:green_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/block/green_pylon.json
+[30Dec2023 18:08:27.649] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:blue_pylon#inventory' referenced from: transit_add_on:blue_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/blue_pylon.json
+[30Dec2023 18:08:27.651] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:purple_pylon#inventory' referenced from: transit_add_on:purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/purple_pylon.json
+[30Dec2023 18:08:27.652] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_orange_pylon#inventory' referenced from: transit_add_on:red_orange_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_orange_pylon.json
+[30Dec2023 18:08:27.653] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_yellow_pylon#inventory' referenced from: transit_add_on:red_yellow_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_yellow_pylon.json
+[30Dec2023 18:08:27.656] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_green_pylon#inventory' referenced from: transit_add_on:red_green_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_green_pylon.json
+[30Dec2023 18:08:27.660] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_blue_pylon#inventory' referenced from: transit_add_on:red_blue_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_blue_pylon.json
+[30Dec2023 18:08:27.661] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:red_purple_pylon#inventory' referenced from: transit_add_on:red_purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/red_purple_pylon.json
+[30Dec2023 18:08:27.663] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:orange_yellow_pylon#inventory' referenced from: transit_add_on:orange_yellow_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/orange_yellow_pylon.json
+[30Dec2023 18:08:27.668] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:orange_green_pylon#inventory' referenced from: transit_add_on:orange_green_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/orange_green_pylon.json
+[30Dec2023 18:08:27.671] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:orange_blue_pylon#inventory' referenced from: transit_add_on:orange_blue_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/orange_blue_pylon.json
+[30Dec2023 18:08:27.672] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:orange_purple_pylon#inventory' referenced from: transit_add_on:orange_purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/orange_purple_pylon.json
+[30Dec2023 18:08:27.676] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:yellow_green_pylon#inventory' referenced from: transit_add_on:yellow_green_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/yellow_green_pylon.json
+[30Dec2023 18:08:27.679] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:yellow_blue_pylon#inventory' referenced from: transit_add_on:yellow_blue_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/yellow_blue_pylon.json
+[30Dec2023 18:08:27.680] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:yellow_purple_pylon#inventory' referenced from: transit_add_on:yellow_purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/yellow_purple_pylon.json
+[30Dec2023 18:08:27.680] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:green_blue_pylon#inventory' referenced from: transit_add_on:green_blue_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/green_blue_pylon.json
+[30Dec2023 18:08:27.681] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:green_purple_pylon#inventory' referenced from: transit_add_on:green_purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/green_purple_pylon.json
+[30Dec2023 18:08:27.682] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'transit_add_on:blue_purple_pylon#inventory' referenced from: transit_add_on:blue_purple_pylon#inventory: java.io.FileNotFoundException: transit_add_on:models/item/blue_purple_pylon.json
+[30Dec2023 18:08:28.916] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/red_pylon
+[30Dec2023 18:08:28.918] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/orange_pylon
+[30Dec2023 18:08:28.919] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/green_pylon
+[30Dec2023 18:08:28.919] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to resolve texture reference: #missingno in transit_add_on:item/yellow_pylon
+[30Dec2023 18:08:35.344] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5586
+[30Dec2023 18:08:39.034] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (WH201A)
+[30Dec2023 18:08:39.041] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[30Dec2023 18:08:39.289] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[30Dec2023 18:08:39.297] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
+[30Dec2023 18:08:39.298] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[30Dec2023 18:08:39.299] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[30Dec2023 18:08:39.300] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[30Dec2023 18:08:39.301] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[30Dec2023 18:08:39.302] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[30Dec2023 18:08:41.772] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[30Dec2023 18:08:41.774] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[30Dec2023 18:08:41.775] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[30Dec2023 18:08:45.048] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[30Dec2023 18:09:08.816] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:transit_add_on for mod file P:\Transit-Add-On\build\resources\main
+[30Dec2023 18:09:08.818] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
+[30Dec2023 18:09:10.229] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30Dec2023 18:09:10.231] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30Dec2023 18:09:10.235] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30Dec2023 18:09:10.237] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30Dec2023 18:09:10.240] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30Dec2023 18:09:12.999] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[30Dec2023 18:09:14.870] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1141 advancements
+[30Dec2023 18:09:14.957] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[30Dec2023 18:09:14.974] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[30Dec2023 18:09:15.492] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Dec2023 18:09:15.545] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
+[30Dec2023 18:09:15.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Dec2023 18:09:15.646] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making serverconfig directory : .\saves\New World\serverconfig
+[30Dec2023 18:09:15.648] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created serverconfig directory : .\saves\New World\serverconfig
+[30Dec2023 18:09:15.648] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[30Dec2023 18:09:15.648] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\saves\New World\serverconfig\forge-server.toml
+[30Dec2023 18:09:15.652] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\saves\New World\serverconfig\forge-server.toml
+[30Dec2023 18:09:15.652] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\saves\New World\serverconfig\forge-server.toml for changes
+[30Dec2023 18:09:15.652] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\forge-server.toml is not correct. Correcting
+[30Dec2023 18:09:15.655] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[30Dec2023 18:09:15.656] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[30Dec2023 18:09:15.656] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringBlockEntities does not match the spec. This may create a backup.
+[30Dec2023 18:09:15.658] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[30Dec2023 18:09:15.658] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.fullBoundingBoxLadders does not match the spec. This may create a backup.
+[30Dec2023 18:09:15.658] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[30Dec2023 18:09:15.658] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.zombieBaseSummonChance does not match the spec. This may create a backup.
+[30Dec2023 18:09:15.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[30Dec2023 18:09:15.659] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.zombieBabyChance does not match the spec. This may create a backup.
+[30Dec2023 18:09:15.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[30Dec2023 18:09:15.659] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.treatEmptyTagsAsAir does not match the spec. This may create a backup.
+[30Dec2023 18:09:15.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.skipEmptyShapelessCheck was corrected from null to its default, true. 
+[30Dec2023 18:09:15.659] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.skipEmptyShapelessCheck does not match the spec. This may create a backup.
+[30Dec2023 18:09:15.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[30Dec2023 18:09:15.659] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.fixAdvancementLoading does not match the spec. This may create a backup.
+[30Dec2023 18:09:15.659] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[30Dec2023 18:09:15.659] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.permissionHandler does not match the spec. This may create a backup.
+[30Dec2023 18:09:15.659] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server does not match the spec. This may create a backup.
+[30Dec2023 18:09:15.661] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[30Dec2023 18:09:24.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Dec2023 18:09:25.679] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:25.680] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:25.680] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:26.268] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:26.675] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:27.180] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:27.714] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Dec2023 18:09:28.178] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[30Dec2023 18:09:28.680] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[30Dec2023 18:09:29.153] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[30Dec2023 18:09:29.662] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[30Dec2023 18:09:30.163] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[30Dec2023 18:09:30.660] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[30Dec2023 18:09:31.188] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[30Dec2023 18:09:31.654] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[30Dec2023 18:09:32.184] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[30Dec2023 18:09:32.677] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[30Dec2023 18:09:33.154] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[30Dec2023 18:09:33.656] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[30Dec2023 18:09:34.164] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[30Dec2023 18:09:34.662] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[30Dec2023 18:09:35.189] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[30Dec2023 18:09:35.691] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[30Dec2023 18:09:36.163] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[30Dec2023 18:09:36.690] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[30Dec2023 18:09:37.193] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[30Dec2023 18:09:37.654] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[30Dec2023 18:09:38.157] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[30Dec2023 18:09:38.680] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[30Dec2023 18:09:39.158] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[30Dec2023 18:09:39.688] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[30Dec2023 18:09:40.162] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[30Dec2023 18:09:40.683] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[30Dec2023 18:09:41.176] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[30Dec2023 18:09:41.688] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[30Dec2023 18:09:42.158] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[30Dec2023 18:09:42.669] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
+[30Dec2023 18:09:43.186] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
+[30Dec2023 18:09:43.673] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
+[30Dec2023 18:09:44.164] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[30Dec2023 18:09:44.671] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[30Dec2023 18:09:45.189] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[30Dec2023 18:09:45.658] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[30Dec2023 18:09:46.185] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
+[30Dec2023 18:09:46.667] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[30Dec2023 18:09:47.169] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[30Dec2023 18:09:47.666] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[30Dec2023 18:09:48.193] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
+[30Dec2023 18:09:48.687] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[30Dec2023 18:09:49.179] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[30Dec2023 18:09:49.674] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
+[30Dec2023 18:09:50.185] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
+[30Dec2023 18:09:50.689] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[30Dec2023 18:09:51.166] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[30Dec2023 18:09:51.669] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[30Dec2023 18:09:52.182] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[30Dec2023 18:09:52.660] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[30Dec2023 18:09:53.182] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[30Dec2023 18:09:53.732] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[30Dec2023 18:09:54.181] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[30Dec2023 18:09:54.679] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[30Dec2023 18:09:55.176] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[30Dec2023 18:09:55.502] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30Dec2023 18:09:55.507] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 30856 ms
+[30Dec2023 18:09:55.661] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[30Dec2023 18:09:55.666] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[30Dec2023 18:09:55.720] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 16
+[30Dec2023 18:09:55.809] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[30Dec2023 18:09:55.810] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[30Dec2023 18:09:55.828] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[30Dec2023 18:09:55.897] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 19700 (auto-detected)
+[30Dec2023 18:09:55.901] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[30Dec2023 18:09:55.901] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
+[30Dec2023 18:09:55.928] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[30Dec2023 18:09:55.931] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[30Dec2023 18:09:56.027] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+[30Dec2023 18:09:56.112] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 16
+[30Dec2023 18:09:56.113] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 16
+[30Dec2023 18:09:56.113] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[30Dec2023 18:09:56.113] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 11
+[30Dec2023 18:09:56.113] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 16777216
+[30Dec2023 18:09:56.113] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[30Dec2023 18:09:56.113] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[30Dec2023 18:09:56.113] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[30Dec2023 18:09:56.113] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[30Dec2023 18:09:56.113] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[30Dec2023 18:09:56.113] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: true
+[30Dec2023 18:09:56.113] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[30Dec2023 18:09:56.133] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[30Dec2023 18:09:56.133] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[30Dec2023 18:09:56.133] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[30Dec2023 18:09:56.203] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[30Dec2023 18:09:56.445] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[30Dec2023 18:09:56.445] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[30Dec2023 18:09:56.445] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.linkCapacity: 16
+[30Dec2023 18:09:56.446] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[30Dec2023 18:09:56.446] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.delayedQueue.ratio: 8
+[30Dec2023 18:09:56.475] [Netty Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[30Dec2023 18:09:56.476] [Netty Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[30Dec2023 18:09:56.477] [Netty Server IO #1/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5986bfd4
+[30Dec2023 18:09:56.496] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[30Dec2023 18:09:56.727] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 0
+[30Dec2023 18:09:56.769] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 1
+[30Dec2023 18:09:56.830] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[30Dec2023 18:09:56.847] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Logging into server with mod list [minecraft, transit_add_on, forge]
+[30Dec2023 18:09:56.847] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'transit_add_on:transit_add_on' : Version test of '1' from server : ACCEPTED
+[30Dec2023 18:09:56.876] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from server : ACCEPTED
+[30Dec2023 18:09:56.876] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from server : ACCEPTED
+[30Dec2023 18:09:56.876] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from server : ACCEPTED
+[30Dec2023 18:09:56.876] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from server : ACCEPTED
+[30Dec2023 18:09:56.876] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from server : ACCEPTED
+[30Dec2023 18:09:56.876] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from server : ACCEPTED
+[30Dec2023 18:09:56.876] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from server : ACCEPTED
+[30Dec2023 18:09:56.876] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from server
+[30Dec2023 18:09:56.877] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 0
+[30Dec2023 18:09:56.881] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted server connection
+[30Dec2023 18:09:56.881] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[30Dec2023 18:09:56.882] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 0 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[30Dec2023 18:09:56.882] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, transit_add_on, forge]
+[30Dec2023 18:09:56.882] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'transit_add_on:transit_add_on' : Version test of '1' from client : ACCEPTED
+[30Dec2023 18:09:56.883] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from client : ACCEPTED
+[30Dec2023 18:09:56.883] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[30Dec2023 18:09:56.883] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from client : ACCEPTED
+[30Dec2023 18:09:56.883] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from client : ACCEPTED
+[30Dec2023 18:09:56.883] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from client : ACCEPTED
+[30Dec2023 18:09:56.883] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from client : ACCEPTED
+[30Dec2023 18:09:56.883] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[30Dec2023 18:09:56.883] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[30Dec2023 18:09:56.883] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[30Dec2023 18:09:56.887] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[30Dec2023 18:09:56.892] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received config sync from server
+[30Dec2023 18:09:56.893] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 1
+[30Dec2023 18:09:56.910] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[30Dec2023 18:09:56.910] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[30Dec2023 18:09:56.910] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[30Dec2023 18:09:56.917] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[30Dec2023 18:09:56.967] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[30Dec2023 18:09:57.044] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@321b22f1
+[30Dec2023 18:09:57.081] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:2a7cb721] logged in with entity id 202 at (8.5, 76.0, 33.5)
+[30Dec2023 18:09:57.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[30Dec2023 18:09:57.796] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[30Dec2023 18:09:59.600] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30Dec2023 18:09:59.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30Dec2023 18:10:01.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30Dec2023 18:10:01.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Dec2023 18:10:01.692] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[30Dec2023 18:10:01.703] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[30Dec2023 18:10:01.762] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2910ms or 58 ticks behind
+[30Dec2023 18:10:03.353] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30Dec2023 18:10:03.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30Dec2023 18:10:03.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30Dec2023 18:10:03.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Dec2023 18:10:03.377] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[30Dec2023 18:10:03.382] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[30Dec2023 18:10:05.399] [Render thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[30Dec2023 18:10:05.432] [Render thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Started serving on 51934
+[30Dec2023 18:10:05.460] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Local game hosted on port 51934
+[30Dec2023 18:10:09.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[30Dec2023 18:10:09.200] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Set own game mode to Creative Mode
+[30Dec2023 18:12:12.753] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[30Dec2023 18:12:12.810] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[30Dec2023 18:12:12.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[30Dec2023 18:12:12.827] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[30Dec2023 18:12:12.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30Dec2023 18:12:12.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30Dec2023 18:12:12.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30Dec2023 18:12:14.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30Dec2023 18:12:16.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30Dec2023 18:12:16.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Dec2023 18:12:16.244] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[30Dec2023 18:12:16.248] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[30Dec2023 18:12:16.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[30Dec2023 18:12:16.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30Dec2023 18:12:16.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Dec2023 18:12:16.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[30Dec2023 18:12:17.018] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\New World\serverconfig
+[30Dec2023 18:12:17.020] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER

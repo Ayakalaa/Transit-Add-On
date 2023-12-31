@@ -87,7 +87,7 @@ public class TransitAddOnModBlocks {
 	public static final RegistryObject<Block> EXAMPLE_BLOCK = REGISTRY.register("example_block", () -> new ExampleBlockBlock());
 	public static final RegistryObject<Block> EXAMPLE_ORE = REGISTRY.register("example_ore", () -> new ExampleOreBlock());
 
-
+	//Single Colors
 	public static final RegistryObject<Block> RED_PYLON = REGISTRY.register("red_pylon", () -> new RedPylon());
 	public static final RegistryObject<Block> ORANGE_PYLON = REGISTRY.register("orange_pylon", () -> new OrangePylon());
 	public static final RegistryObject<Block> YELLOW_PYLON = REGISTRY.register("yellow_pylon", () -> new YellowPylon());
@@ -95,11 +95,28 @@ public class TransitAddOnModBlocks {
 	public static final RegistryObject<Block> BLUE_PYLON = REGISTRY.register("blue_pylon", () -> new BluePylon());
 	public static final RegistryObject<Block> PURPLE_PYLON = REGISTRY.register("purple_pylon", () -> new PurplePylon());
 
+	//Two colors, RED
 	public static final RegistryObject<Block> RED_ORANGE_PYLON = REGISTRY.register("red_orange_pylon", () -> new RedOrangePylon());
 	public static final RegistryObject<Block> RED_YELLOW_PYLON = REGISTRY.register("red_yellow_pylon", () -> new RedYellowPylon());
 	public static final RegistryObject<Block> RED_GREEN_PYLON = REGISTRY.register("red_green_pylon", () -> new RedGreenPylon());
 	public static final RegistryObject<Block> RED_BLUE_PYLON = REGISTRY.register("red_blue_pylon", () -> new RedBluePylon());
 	public static final RegistryObject<Block> RED_PURPLE_PYLON = REGISTRY.register("red_purple_pylon", () -> new RedPurplePylon());
 
+	//Two colors, ORANGE
+	public static final RegistryObject<Block> ORANGE_YELLOW_PYLON = REGISTRY.register("orange_yellow_pylon", () -> new OrangeYellowPylon());
+	public static final RegistryObject<Block> ORANGE_GREEN_PYLON = REGISTRY.register("orange_green_pylon", () -> new OrangeGreenPylon());
+	public static final RegistryObject<Block> ORANGE_BLUE_PYLON = REGISTRY.register("orange_blue_pylon", () -> new OrangeBluePylon());
+	public static final RegistryObject<Block> ORANGE_PURPLE_PYLON = REGISTRY.register("orange_purple_pylon", () -> new OrangePurplePylon());
+	
+	//Two colors, YELLOW
+	public static final RegistryObject<Block> YELLOW_GREEN_PYLON = REGISTRY.register("yellow_green_pylon", () -> new YellowGreenPylon());
+	public static final RegistryObject<Block> YELLOW_BLUE_PYLON = REGISTRY.register("yellow_blue_pylon", () -> new YellowBluePylon());
+	public static final RegistryObject<Block> YELLOW_PURPLE_PYLON = REGISTRY.register("yellow_purple_pylon", () -> new YellowPurplePylon());
+
+	//Two color, GREEN
+	public static final RegistryObject<Block> GREEN_BLUE_PYLON = REGISTRY.register("green_blue_pylon", () -> new GreenBluePylon());
+	public static final RegistryObject<Block> GREEN_PURPLE_PYLON = REGISTRY.register("green_purple_pylon", () -> new GreenPurplePylon());
+
+	public static final RegistryObject<Block> BLUE_PURPLE_PYLON = REGISTRY.register("blue_purple_pylon", () -> new BluePurplePylon());
 
 }
